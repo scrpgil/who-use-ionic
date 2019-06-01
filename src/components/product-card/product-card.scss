@@ -1,0 +1,12 @@
+product-card {
+  ion-card {
+    width: 250px;
+    .platforms-wrapper {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .card-footer {
+      padding-top:16px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "who-use-ionic",
+  "private": true,
+  "version": "0.0.1",
+  "description": "who-use-ionic",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "one",
+    "@stencil/sass": "^0.2.3"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.0.0-beta.5"
+  }
+}
