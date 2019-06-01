@@ -26,6 +26,7 @@
     },
     {
       "name": "JustWatch",
+      "image": "https://imgur.com/LdGbNRG.png",
       "description": "動画配信検索エンジン",
       "author": "JustWatch, inc.",
       "websiteUrl": "https://www.justwatch.com/jp",
@@ -61,7 +62,7 @@
     },
     {
       "name": "tipsys",
-      "image": "https://imgur.com/9o1n9Jr.png",
+      "image": "https://imgur.com/3pUDnUN.png",
       "description": "女性専用SNS",
       "author": "一般社団法人リレーションデザイン研究所",
       "websiteUrl": "https://www.tipsys.me/",
@@ -85,6 +86,7 @@
     },
     {
       "name": "PicoWallet",
+      "image": "https://imgur.com/TCXOhCP.png",
       "description": "仮想通貨NEMウォレット",
       "author": "@scrpgil",
       "websiteUrl": "https://picowallet.net",
@@ -143,6 +145,7 @@
     },
     {
       "name": "都市経営プロフェッショナルスクール",
+      "image": "https://imgur.com/N5xBDKK.png",
       "description": "公式サイト",
       "author": "@rdlabo",
       "websiteUrl": "https://www.ppp-ps.net/",
@@ -176,6 +179,7 @@
     },
     {
       "name": "AAHub",
+      "image": "https://imgur.com/8LqMpdf.png",
       "description": "アスキーアート まとめサイト",
       "author": "@scrpgil",
       "websiteUrl": "https://aahub.org",
@@ -187,6 +191,7 @@
     },
     {
       "name": "AA箱",
+      "image": "https://imgur.com/ZUJPnbw.png",
       "description": "アスキーアート 投稿サイト",
       "author": "@scrpgil",
       "websiteUrl": "https://b.aahub.org",
@@ -221,6 +226,7 @@
     },
     {
       "name": "RIGHTS",
+      "image": "https://imgur.com/bTR8L3P.png",
       "description": "アイドルのカード購入サイト",
       "author": "@biga816",
       "websiteUrl": "https://demo.rights-dapp.net",
@@ -265,6 +271,7 @@
     },
     {
       "name": "33Tab ミミタブ",
+      "image": "https://imgur.com/17BqS8b.png",
       "description": "音声ARアプリ",
       "author": "Hakuhodo DY media partners Inc.",
       "websiteUrl": "https://33tab.jp/",
@@ -342,6 +349,7 @@
     },
     {
       "name": "iChain",
+      "image": "https://imgur.com/IKHG8Kt.png",
       "description": "保険管理アプリ",
       "author": "iChain",
       "websiteUrl": "https://www.ichain.co.jp/",
