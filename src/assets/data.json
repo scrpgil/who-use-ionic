@@ -37,6 +37,7 @@
     },
     {
       "name": "Sworkit",
+      "image": "https://imgur.com/6TznFRa.png",
       "description": "筋トレアプリ",
       "author": "Nexercise Apps, Inc.",
       "websiteUrl": "https://sworkit.com/",
@@ -48,6 +49,7 @@
     },
     {
       "name": "Techfeed",
+      "image": "https://imgur.com/8O34AdD.png",
       "description": "ニュースアプリ",
       "author": "Techfeed",
       "websiteUrl": "https://techfeed.io",
@@ -59,6 +61,7 @@
     },
     {
       "name": "tipsys",
+      "image": "https://imgur.com/9o1n9Jr.png",
       "description": "女性専用SNS",
       "author": "一般社団法人リレーションデザイン研究所",
       "websiteUrl": "https://www.tipsys.me/",
@@ -71,6 +74,7 @@
     {
       "name": "MarketWatch",
       "description": "ニュースアプリ",
+      "image": "https://imgur.com/p5c9hSp.png",
       "author": "Dow Jones & Company, Inc.",
       "websiteUrl": "https://www.marketwatch.com/",
       "platform": {
@@ -92,6 +96,7 @@
     },
     {
       "name": "pato",
+      "image": "https://imgur.com/9o1n9Jr.png",
       "description": "マッチングアプリ",
       "author": "kineca",
       "websiteUrl": "https://pato.today/",
@@ -103,6 +108,7 @@
     },
     {
       "name": "noel",
+      "image": "https://imgur.com/fsQLTwG.png",
       "description": "女性向けニュースアプリ",
       "author": "mostyplace",
       "websiteUrl": "https://noel-media.jp/",
@@ -114,6 +120,7 @@
     },
     {
       "name": "paddy67",
+      "image": "https://imgur.com/LDJHu02.png",
       "description": "マッチングアプリ",
       "author": "paddy67",
       "websiteUrl": "https://paddy67.today/",
@@ -202,6 +209,7 @@
     },
     {
       "name": "アイテマス",
+      "image": "https://imgur.com/5iklPGB.png",
       "description": "日程調整アプリ",
       "author": "@__shinji__",
       "websiteUrl": "https://aitemasu.me/",
@@ -367,6 +375,7 @@
     },
     {
       "name": "Meily",
+      "image":"https://imgur.com/QX9cfXh.png",
       "description": "美容医療・整形SNSアプリ",
       "author": "株式会社Meily",
       "websiteUrl": "https://about.meily.co.jp/about/",
@@ -378,6 +387,7 @@
     },
     {
       "name": "イイコトイウネエ",
+      "image":"https://imgur.com/Am6VVic.png",
       "description": "名言シェアアプリ",
       "author": "@kenishhhhh",
       "websiteUrl": "",
