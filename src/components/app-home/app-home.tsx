@@ -30,7 +30,6 @@ export class AppHome {
       </ion-header>,
 
       <ion-content class="ion-padding">
-        <h1>Ionicを使用しているプロダクトをリストアップしています。</h1>
         <div class="products-wrapper">
           {(() => {
             let list = [];
