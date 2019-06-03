@@ -22,7 +22,7 @@ export class AppHome {
         <ion-toolbar color="primary">
           <ion-title>Who use Ionic?</ion-title>
           <ion-buttons slot="end">
-            <ion-button href="https://github.com/scrpgil/who-use-ionic">
+            <ion-button href="https://github.com/ionic-jp/who-use-ionic">
               <ion-icon name="logo-github" />
             </ion-button>
           </ion-buttons>
