@@ -12,11 +12,7 @@ export class AppHome {
     return (
       <ion-card>
         {(() => {
-          if (this.product.image) {
-            return <img src={this.product.image} />;
-          } else {
-            return <img src="assets/250x150.png" />;
-          }
+          return <ion-img src={`${this.product.image ? this.product.image : '../../assets/250x150.png'}`} alt=""></ion-img>;
         })()}
         <ion-card-header>
           <ion-card-subtitle>{this.product.author}</ion-card-subtitle>

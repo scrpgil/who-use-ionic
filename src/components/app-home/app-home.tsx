@@ -32,9 +32,8 @@ export class AppHome {
       <ion-content class="ion-padding">
         <div class="products-wrapper">
           {(() => {
-            let list = [];
+            const list = [];
             for (const product of this.products) {
-              console.log(product);
               list.push(<product-card product={product} />);
             }
             return list;
