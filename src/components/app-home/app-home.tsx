@@ -1,13 +1,13 @@
 import { Component, h, State } from "@stencil/core";
 import { DataProvider } from "../../providers/data";
-import { Product } from "../../models/product";
+import { IProduct } from "../../models/product";
 
 @Component({
   tag: "app-home",
   styleUrl: "app-home.scss"
 })
 export class AppHome {
-  @State() products: Product[] = [];
+  @State() products: IProduct[] = [];
 
   componentWillLoad() {
     this.getData();

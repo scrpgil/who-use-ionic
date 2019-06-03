@@ -13,8 +13,7 @@ export class DataController {
         headers
       });
       const obj = await res.json();
-      const products = obj.products;
-      return products;
+      return obj.products;
     } catch (e) {
       console.log(e);
       return null;

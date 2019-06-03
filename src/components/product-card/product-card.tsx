@@ -1,12 +1,12 @@
 import { Component, h, Prop } from "@stencil/core";
-import { Product } from "../../models/product";
+import { IProduct } from "../../models/product";
 
 @Component({
   tag: "product-card",
   styleUrl: "product-card.scss"
 })
 export class AppHome {
-  @Prop() product: Product;
+  @Prop() product: IProduct;
 
   render() {
     return (
