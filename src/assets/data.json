@@ -238,6 +238,7 @@
     },
     {
       "name": "三井住友銀行",
+      "image": "./assets/images/smbc.png",
       "description": "三井住友銀行アプリ",
       "author": "三井住友銀行",
       "websiteUrl": "https://www.smbc.co.jp/",
@@ -451,6 +452,7 @@
     },
     {
       "name": "ホウビンゴ",
+      "image": "./assets/images/houbingo.png",
       "description": "タスクアプリ",
       "author": "@maki_saki",
       "websiteUrl": "https://houbingo.com/",
@@ -462,6 +464,7 @@
     },
     {
       "name": "ゲーマガ",
+      "image": "./assets/images/gamaga.png",
       "description": "ゲームマガジンのアプリ",
       "author": "株式会社バカー",
       "websiteUrl": "https://gamemaga.denfaminicogamer.jp/",
@@ -560,7 +563,8 @@
       }
     },
     {
-      "name": "AreaInnovation Review",
+      "name": "Area Innovation Review",
+      "image": "./assets/images/area_innovation_review.png",
       "description": "まちを本気で変える人のためのWebマガジン",
       "author": "AreaInnovationAlliance, Inc",
       "websiteUrl": "http://air.areaia.jp/",
