@@ -1,7 +1,7 @@
 {
   "name": "who-use-ionic",
   "short_name": "who-use-ionic",
-  "start_url": "/",
+  "start_url": "/case/",
   "display": "standalone",
   "icons": [{
     "src": "assets/icon/icon192.png",
