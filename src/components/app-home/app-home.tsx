@@ -22,6 +22,11 @@ export class AppHome {
     return [
       <ion-header>
         <ion-toolbar color="primary">
+          <ion-buttons slot="start">
+            <ion-button href="https://ionicframework.jp">
+              <ion-icon size="large" name="logo-ionic" />
+            </ion-button>
+          </ion-buttons>
           <ion-title>Who use Ionic?</ion-title>
           <ion-buttons slot="end">
             <ion-button href="https://github.com/ionic-jp/who-use-ionic">
