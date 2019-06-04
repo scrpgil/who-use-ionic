@@ -569,6 +569,17 @@
         "android": "https://play.google.com/store/apps/details?id=jp.areaia.areainnovationreview&rdid=jp.areaia.areainnovationreview",
         "web": "https://air2.areaia.jp/main/article/list"
       }
+    },
+    {
+      "name": "ししゃモバ SHISHAMO公式アプリ",
+      "description": "3ピースロックバンド「SHISHAMO」の公式アプリ(通称「ししゃモバ」)",
+      "author": "CRAYON Inc.",
+      "websiteUrl": "https://c-rayon.com/shishamo/app/index.html",
+      "platform": {
+        "ios": "https://itunes.apple.com/jp/app/id1440170137",
+        "android": "https://play.google.com/store/apps/details?id=com.c_rayon.shishamo",
+        "web": ""
+      }
     }
   ]
 }
