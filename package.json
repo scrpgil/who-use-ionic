@@ -11,13 +11,19 @@
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watch"
+    "test.watch": "stencil test --spec --e2e --watch",
+    "formatter": "prettier --parser typescript --write \"./**/*.ts\""
   },
   "dependencies": {
     "@ionic/core": "one",
-    "@stencil/sass": "^0.2.3"
+    "@stencil/sass": "^0.2.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.17.1"
   },
   "devDependencies": {
     "@stencil/core": "1.0.0-beta.5"
-  }
+  },
+  "pre-commit": [
+    "formatter"
+  ]
 }

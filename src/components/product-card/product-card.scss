@@ -1,12 +1,36 @@
 product-card {
+  @media (min-width: 1440px) {
+    width: 20%;
+  }
+  @media (max-width: 1440px) {
+    width: 25%;
+  }
+  @media (max-width: 960px) {
+    width: 33%;
+  }
+  @media (max-width: 720px) {
+    width: 50%;
+  }
+  @media (max-width: 540px) {
+    width: 100%;
+  }
   ion-card {
-    width: 250px;
+    background: #ffffff;
+    height: calc(100% - 20px);
+    padding-bottom: 36px;
+    position: relative;
     .platforms-wrapper {
       display: flex;
       justify-content: flex-end;
     }
+    ion-img {
+      min-height: 150px;
+    }
     .card-footer {
-      padding-top:16px;
+      padding-top: 16px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
   }
 }

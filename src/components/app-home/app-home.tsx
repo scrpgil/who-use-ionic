@@ -1,16 +1,18 @@
 import { Component, h, State } from "@stencil/core";
 import { DataProvider } from "../../providers/data";
-import { Product } from "../../models/product";
+import { IProduct } from "../../models/product";
 
 @Component({
   tag: "app-home",
   styleUrl: "app-home.scss"
 })
 export class AppHome {
-  @State() products: Product[] = [];
+  @State() products: IProduct[] = [];
 
-  componentWillLoad() {
-    this.getData();
+  async componentWillLoad() {
+    await this.getData();
+    const loading: HTMLElement = document.querySelector('.install-loading-spinner');
+    loading.style.display = 'none';
   }
 
   async getData() {
@@ -20,9 +22,14 @@ export class AppHome {
     return [
       <ion-header>
         <ion-toolbar color="primary">
+          <ion-buttons slot="start">
+            <ion-button href="https://ionicframework.jp">
+              <ion-icon size="large" name="logo-ionic" />
+            </ion-button>
+          </ion-buttons>
           <ion-title>Who use Ionic?</ion-title>
           <ion-buttons slot="end">
-            <ion-button href="https://github.com/scrpgil/who-use-ionic">
+            <ion-button href="https://github.com/ionic-jp/who-use-ionic">
               <ion-icon name="logo-github" />
             </ion-button>
           </ion-buttons>
@@ -32,9 +39,8 @@ export class AppHome {
       <ion-content class="ion-padding">
         <div class="products-wrapper">
           {(() => {
-            let list = [];
+            const list = [];
             for (const product of this.products) {
-              console.log(product);
               list.push(<product-card product={product} />);
             }
             return list;

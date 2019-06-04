@@ -7,7 +7,7 @@
 
 import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 import {
-  Product,
+  IProduct,
 } from './models/product';
 
 
@@ -15,7 +15,7 @@ export namespace Components {
   interface AppHome {}
   interface AppRoot {}
   interface ProductCard {
-    'product': Product;
+    'product': IProduct;
   }
 }
 
@@ -23,7 +23,7 @@ declare namespace LocalJSX {
   interface AppHome extends JSXBase.HTMLAttributes {}
   interface AppRoot extends JSXBase.HTMLAttributes {}
   interface ProductCard extends JSXBase.HTMLAttributes {
-    'product'?: Product;
+    'product'?: IProduct;
   }
 
   interface IntrinsicElements {

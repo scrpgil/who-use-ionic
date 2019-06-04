@@ -1,22 +1,18 @@
 import { Component, h, Prop } from "@stencil/core";
-import { Product } from "../../models/product";
+import { IProduct } from "../../models/product";
 
 @Component({
   tag: "product-card",
   styleUrl: "product-card.scss"
 })
 export class AppHome {
-  @Prop() product: Product;
+  @Prop() product: IProduct;
 
   render() {
     return (
       <ion-card>
         {(() => {
-          if (this.product.image) {
-            return <img src={this.product.image} />;
-          } else {
-            return <img src="assets/250x150.png" />;
-          }
+          return <ion-img src={`${this.product.image ? this.product.image : 'assets/blank.png'}`} alt=""></ion-img>;
         })()}
         <ion-card-header>
           <ion-card-subtitle>{this.product.author}</ion-card-subtitle>
@@ -25,9 +21,10 @@ export class AppHome {
         <ion-card-content>
           {(() => {
             if (this.product.websiteUrl) {
+              const displayUrl = this.product.websiteUrl.match(/^https?:\/{2,}(.*?)(?:\/|\?|#|$)/)[1];
               return (
-                <a href={this.product.websiteUrl} target="_blank">
-                  {this.product.websiteUrl}
+                <a href={this.product.websiteUrl} target="_blank" rel="noopener">
+                  {displayUrl}
                 </a>
               );
             }

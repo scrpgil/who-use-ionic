@@ -360,17 +360,6 @@
       }
     },
     {
-      "name": "ブロギルアプリ",
-      "description": "イケハヤのオンラインサロンアプリ",
-      "author": "@qyHavgdGufISS3P",
-      "websiteUrl": "https://salon-clife.firebaseapp.com/",
-      "platform": {
-        "ios": "",
-        "android": "",
-        "web": "https://salon-clife.firebaseapp.com/"
-      }
-    },
-    {
       "name": "Petit Clothes",
       "description": "プチプラファッションのコーディネートアプリ",
       "author": "chiaki",
@@ -484,7 +473,7 @@
     },
     {
       "name": "Altafonte Back Office 4",
-      "description": "会社のbackofficeサイト？",
+      "description": "バックオフィス管理ツール",
       "author": "altafonte",
       "websiteUrl": "https://altafonte.com/",
       "platform": {
@@ -506,7 +495,7 @@
     },
     {
       "name": "betshah",
-      "description": "オンラインカジノ？",
+      "description": "オンラインカジノ",
       "author": "betshah",
       "websiteUrl": "http://endlessaisle.eat.aceturtle.in/",
       "platform": {
@@ -579,6 +568,17 @@
         "ios": "https://itunes.apple.com/jp/app/areainnovationreview/id1247339173?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.areaia.areainnovationreview&rdid=jp.areaia.areainnovationreview",
         "web": "https://air2.areaia.jp/main/article/list"
+      }
+    },
+    {
+      "name": "ししゃモバ SHISHAMO公式アプリ",
+      "description": "3ピースロックバンド「SHISHAMO」の公式アプリ(通称「ししゃモバ」)",
+      "author": "CRAYON Inc.",
+      "websiteUrl": "https://c-rayon.com/shishamo/app/index.html",
+      "platform": {
+        "ios": "https://itunes.apple.com/jp/app/id1440170137",
+        "android": "https://play.google.com/store/apps/details?id=com.c_rayon.shishamo",
+        "web": ""
       }
     }
   ]
