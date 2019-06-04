@@ -23,7 +23,7 @@ export class AppHome {
             if (this.product.websiteUrl) {
               const displayUrl = this.product.websiteUrl.match(/^https?:\/{2,}(.*?)(?:\/|\?|#|$)/)[1];
               return (
-                <a href={this.product.websiteUrl} target="_blank">
+                <a href={this.product.websiteUrl} target="_blank" rel="noopener">
                   {displayUrl}
                 </a>
               );
