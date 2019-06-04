@@ -9,8 +9,10 @@ import { IProduct } from "../../models/product";
 export class AppHome {
   @State() products: IProduct[] = [];
 
-  componentWillLoad() {
-    this.getData();
+  async componentWillLoad() {
+    await this.getData();
+    const loading: HTMLElement = document.querySelector('.install-loading-spinner');
+    loading.style.display = 'none';
   }
 
   async getData() {
