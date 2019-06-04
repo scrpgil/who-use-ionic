@@ -12,7 +12,7 @@ export class AppHome {
     return (
       <ion-card>
         {(() => {
-          return <ion-img src={`${this.product.image ? this.product.image : '../../assets/250x150.png'}`} alt=""></ion-img>;
+          return <ion-img src={`${this.product.image ? this.product.image : 'assets/250x150.png'}`} alt=""></ion-img>;
         })()}
         <ion-card-header>
           <ion-card-subtitle>{this.product.author}</ion-card-subtitle>
