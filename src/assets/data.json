@@ -360,17 +360,6 @@
       }
     },
     {
-      "name": "ブロギルアプリ",
-      "description": "イケハヤのオンラインサロンアプリ",
-      "author": "@qyHavgdGufISS3P",
-      "websiteUrl": "https://salon-clife.firebaseapp.com/",
-      "platform": {
-        "ios": "",
-        "android": "",
-        "web": "https://salon-clife.firebaseapp.com/"
-      }
-    },
-    {
       "name": "Petit Clothes",
       "description": "プチプラファッションのコーディネートアプリ",
       "author": "chiaki",
