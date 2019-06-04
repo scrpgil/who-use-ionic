@@ -576,6 +576,7 @@
     },
     {
       "name": "ししゃモバ SHISHAMO公式アプリ",
+      "image": "./assets/images/shishamo.png",
       "description": "3ピースロックバンド「SHISHAMO」の公式アプリ(通称「ししゃモバ」)",
       "author": "CRAYON Inc.",
       "websiteUrl": "https://c-rayon.com/shishamo/app/index.html",
