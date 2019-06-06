@@ -585,6 +585,18 @@
         "android": "https://play.google.com/store/apps/details?id=com.c_rayon.shishamo",
         "web": ""
       }
+    },
+    {
+      "name": "攻略アプリ〜逆転の書〜 for 逆転オセロニア",
+      "image": "",
+      "description": "大人気ゲーム「逆転オセロニア」の攻略アプリです。",
+      "author": "ICS INC.",
+      "websiteUrl": "",
+      "platform": {
+        "ios": "https://itunes.apple.com/jp/app/%E6%94%BB%E7%95%A5%E3%82%A2%E3%83%97%E3%83%AA-%E9%80%86%E8%BB%A2%E3%81%AE%E6%9B%B8-for-%E9%80%86%E8%BB%A2%E3%82%AA%E3%82%BB%E3%83%AD%E3%83%8B%E3%82%A2/id1149258978?mt=8",
+        "android": "https://play.google.com/store/apps/details?id=jp.icsweb.othelloniastrategy&hl=ja",
+        "web": ""
+      }
     }
   ]
 }
