@@ -609,6 +609,18 @@
         "android": "https://play.google.com/store/apps/details?id=jp.icsweb.othelloniastrategy&hl=ja",
         "web": ""
       }
+    },
+    {
+      "name": "バイトアプリ「an」",
+      "image": "./assets/images/an.jpg",
+      "description": "自分にピッタリなバイトを探せるアプリ",
+      "author": "PERSOL CAREER CO., LTD.",
+      "websiteUrl": "https://weban.jp/contents/c/smartphone_apri/",
+      "platform": {
+        "ios": "https://itunes.apple.com/app/id543829599?mt=8",
+        "android": "https://play.google.com/store/apps/details?id=jp.weban.anapp&hl=ja",
+        "web": ""
+      }
     }
   ]
 }
