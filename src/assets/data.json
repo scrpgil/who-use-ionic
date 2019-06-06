@@ -585,6 +585,18 @@
         "android": "https://play.google.com/store/apps/details?id=com.c_rayon.shishamo",
         "web": ""
       }
+    },
+    {
+      "name": "HouseGate",
+      "image": "./assets/images/housegate.png",
+      "description": "業者と施主をつなぐ施工管理アプリ",
+      "author": "TwoGate inc.",
+      "websiteUrl": "https://housegate.jp/",
+      "platform": {
+        "ios": "https://itunes.apple.com/jp/app/house-gate/id1258061724",
+        "android": "https://play.google.com/store/apps/details?id=jp.housegate.app",
+        "web": "https://app.housegate.jp"
+      }
     }
   ]
 }
