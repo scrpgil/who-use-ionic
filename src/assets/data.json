@@ -521,7 +521,7 @@
     {
       "name": "IdentiDog",
       "description": "Azureを使った犬種識別アプリのデモ",
-      "author": "lil PWA",
+      "author": "@Justinwillis96",
       "websiteUrl": "",
       "platform": {
         "ios": "",
@@ -620,6 +620,18 @@
         "ios": "https://itunes.apple.com/app/id543829599?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.weban.anapp&hl=ja",
         "web": ""
+      }
+    },
+    {
+      "name": "web-whiteboard",
+      "image": "./assets/images/web-whiteboard.png",
+      "description": "Ionic&microsoftgraphで作られたホワイトボード",
+      "author": "@Justinwillis96",
+      "websiteUrl": "https://github.com/jgw96/web-whiteboard",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://webboard-app.web.app/"
       }
     }
   ]
