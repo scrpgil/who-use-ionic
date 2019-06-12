@@ -633,6 +633,18 @@
         "android": "",
         "web": "https://webboard-app.web.app/"
       }
+    },
+    {
+      "name": "はたらく言葉たちジェネレーター",
+      "image": "./assets/images/hatakoto.png",
+      "description": "某つり革広告のジェネレーター",
+      "author": "@scrpgil",
+      "websiteUrl": "https://mobile.twitter.com/scrpgil/status/1138631892108947456",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://hatakoto.senju.dev/"
+      }
     }
   ]
 }
