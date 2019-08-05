@@ -645,6 +645,18 @@
         "android": "",
         "web": "https://hatakoto.senju.dev/"
       }
+    },
+    {
+      "name": "金町の北上で幻魔大戦を叫んだけもの",
+      "image": "./assets/images/kanamachi-genma-taisen.png",
+      "description": "スマホ対応の幻魔大戦ブログ",
+      "author": "WO8TimeSpace175ZERO2",
+      "websiteUrl": "https://github.com/WO8TimeSpace175ZERO2/genma-taisen-to-the-north-of-kanamachi",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://eager-kilby-e6c21f.netlify.com/"
+      }
     }
   ]
 }
