@@ -238,6 +238,7 @@
     },
     {
       "name": "三井住友銀行",
+      "image": "./assets/images/smbc.png",
       "description": "三井住友銀行アプリ",
       "author": "三井住友銀行",
       "websiteUrl": "https://www.smbc.co.jp/",
@@ -372,7 +373,7 @@
     },
     {
       "name": "Meily",
-      "image":"https://imgur.com/QX9cfXh.png",
+      "image": "https://imgur.com/QX9cfXh.png",
       "description": "美容医療・整形SNSアプリ",
       "author": "株式会社Meily",
       "websiteUrl": "https://about.meily.co.jp/about/",
@@ -384,7 +385,7 @@
     },
     {
       "name": "イイコトイウネエ",
-      "image":"https://imgur.com/Am6VVic.png",
+      "image": "https://imgur.com/Am6VVic.png",
       "description": "名言シェアアプリ",
       "author": "@kenishhhhh",
       "websiteUrl": "",
@@ -451,6 +452,7 @@
     },
     {
       "name": "ホウビンゴ",
+      "image": "./assets/images/houbingo.png",
       "description": "タスクアプリ",
       "author": "@maki_saki",
       "websiteUrl": "https://houbingo.com/",
@@ -462,6 +464,7 @@
     },
     {
       "name": "ゲーマガ",
+      "image": "./assets/images/gamaga.png",
       "description": "ゲームマガジンのアプリ",
       "author": "株式会社バカー",
       "websiteUrl": "https://gamemaga.denfaminicogamer.jp/",
@@ -518,7 +521,7 @@
     {
       "name": "IdentiDog",
       "description": "Azureを使った犬種識別アプリのデモ",
-      "author": "lil PWA",
+      "author": "@Justinwillis96",
       "websiteUrl": "",
       "platform": {
         "ios": "",
@@ -560,7 +563,8 @@
       }
     },
     {
-      "name": "AreaInnovation Review",
+      "name": "Area Innovation Review",
+      "image": "./assets/images/area_innovation_review.png",
       "description": "まちを本気で変える人のためのWebマガジン",
       "author": "AreaInnovationAlliance, Inc",
       "websiteUrl": "http://air.areaia.jp/",
@@ -572,6 +576,7 @@
     },
     {
       "name": "ししゃモバ SHISHAMO公式アプリ",
+      "image": "./assets/images/shishamo.png",
       "description": "3ピースロックバンド「SHISHAMO」の公式アプリ(通称「ししゃモバ」)",
       "author": "CRAYON Inc.",
       "websiteUrl": "https://c-rayon.com/shishamo/app/index.html",
@@ -579,6 +584,78 @@
         "ios": "https://itunes.apple.com/jp/app/id1440170137",
         "android": "https://play.google.com/store/apps/details?id=com.c_rayon.shishamo",
         "web": ""
+      }
+    },
+    {
+      "name": "HouseGate",
+      "image": "./assets/images/housegate.png",
+      "description": "業者と施主をつなぐ施工管理アプリ",
+      "author": "TwoGate inc.",
+      "websiteUrl": "https://housegate.jp/",
+      "platform": {
+        "ios": "https://itunes.apple.com/jp/app/house-gate/id1258061724",
+        "android": "https://play.google.com/store/apps/details?id=jp.housegate.app",
+        "web": "https://app.housegate.jp"
+      }
+    },
+    {
+      "name": "攻略アプリ〜逆転の書〜 for 逆転オセロニア",
+      "image": "",
+      "description": "大人気ゲーム「逆転オセロニア」の攻略アプリです。",
+      "author": "ICS INC.",
+      "websiteUrl": "",
+      "platform": {
+        "ios": "https://itunes.apple.com/jp/app/%E6%94%BB%E7%95%A5%E3%82%A2%E3%83%97%E3%83%AA-%E9%80%86%E8%BB%A2%E3%81%AE%E6%9B%B8-for-%E9%80%86%E8%BB%A2%E3%82%AA%E3%82%BB%E3%83%AD%E3%83%8B%E3%82%A2/id1149258978?mt=8",
+        "android": "https://play.google.com/store/apps/details?id=jp.icsweb.othelloniastrategy&hl=ja",
+        "web": ""
+      }
+    },
+    {
+      "name": "バイトアプリ「an」",
+      "image": "./assets/images/an.jpg",
+      "description": "自分にピッタリなバイトを探せるアプリ",
+      "author": "PERSOL CAREER CO., LTD.",
+      "websiteUrl": "https://weban.jp/contents/c/smartphone_apri/",
+      "platform": {
+        "ios": "https://itunes.apple.com/app/id543829599?mt=8",
+        "android": "https://play.google.com/store/apps/details?id=jp.weban.anapp&hl=ja",
+        "web": ""
+      }
+    },
+    {
+      "name": "web-whiteboard",
+      "image": "./assets/images/web-whiteboard.png",
+      "description": "Ionic&microsoftgraphで作られたホワイトボード",
+      "author": "@Justinwillis96",
+      "websiteUrl": "https://github.com/jgw96/web-whiteboard",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://webboard-app.web.app/"
+      }
+    },
+    {
+      "name": "はたらく言葉たちジェネレーター",
+      "image": "./assets/images/hatakoto.png",
+      "description": "某つり革広告のジェネレーター",
+      "author": "@scrpgil",
+      "websiteUrl": "https://mobile.twitter.com/scrpgil/status/1138631892108947456",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://hatakoto.senju.dev/"
+      }
+    },
+    {
+      "name": "金町の北上で幻魔大戦を叫んだけもの",
+      "image": "./assets/images/kanamachi-genma-taisen.png",
+      "description": "スマホ対応の幻魔大戦ブログ",
+      "author": "WO8TimeSpace175ZERO2",
+      "websiteUrl": "https://github.com/WO8TimeSpace175ZERO2/genma-taisen-to-the-north-of-kanamachi",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://eager-kilby-e6c21f.netlify.com/"
       }
     }
   ]
