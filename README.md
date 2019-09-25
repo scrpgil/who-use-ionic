@@ -14,6 +14,7 @@ https://github.com/ionic-jp/who-use-ionic/blob/master/src/assets/data.json
   "description": "アプリの概要を10文字程度で紹介ください",
   "author": "作者名",
   "websiteUrl": "公式URL",
+  "country": "国コード(JP, USなど)",
   "platform": {
     "ios": "アプリURL（itunes.apple.com）。ない場合は空白",
     "android": "アプリURL（play.google.com）。ない場合は空白",

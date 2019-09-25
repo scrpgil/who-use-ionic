@@ -1,4 +1,4 @@
-import { Component, h, State } from "@stencil/core";
+import { Component, h, Prop, State } from "@stencil/core";
 import { DataProvider } from "../../providers/data";
 import { IProduct } from "../../models/product";
 
@@ -9,10 +9,82 @@ import { IProduct } from "../../models/product";
 export class AppHome {
   @State() products: IProduct[] = [];
 
+  @Prop({ connect: "ion-alert-controller" })
+  alertCtrl: HTMLIonAlertControllerElement;
+
+  @State() countryCode: string = "ALL";
+
   async componentWillLoad() {
     await this.getData();
-    const loading: HTMLElement = document.querySelector('.install-loading-spinner');
-    loading.style.display = 'none';
+    const loading: HTMLElement = document.querySelector(
+      ".install-loading-spinner"
+    );
+    loading.style.display = "none";
+  }
+
+  async showSortAlert() {
+    const alert = await this.alertCtrl.create({
+      header: "国で絞り込み",
+      inputs: [
+        {
+          name: "all",
+          type: "radio",
+          label: "すべて",
+          value: "ALL",
+          checked: this.countryCode == "all"
+        },
+        {
+          name: "jp",
+          type: "radio",
+          label: "日本",
+          value: "JP",
+          checked: this.countryCode == "JP"
+        },
+        {
+          name: "us",
+          type: "radio",
+          label: "アメリカ",
+          value: "US",
+          checked: this.countryCode == "US"
+        },
+        {
+          name: "es",
+          type: "radio",
+          label: "スペイン",
+          value: "ES",
+          checked: this.countryCode == "ES"
+        },
+        {
+          name: "ir",
+          type: "radio",
+          label: "イラン",
+          value: "IR",
+          checked: this.countryCode == "IR"
+        },
+        {
+          name: "cw",
+          type: "radio",
+          label: "キュラソー",
+          value: "CW",
+          checked: this.countryCode == "CW"
+        },
+      ],
+      buttons: [
+        {
+          text: "Cancel",
+          role: "cancel",
+          cssClass: "secondary",
+          handler: () => {}
+        },
+        {
+          text: "Ok",
+          handler: data => {
+            this.countryCode = data;
+          }
+        }
+      ]
+    });
+    await alert.present();
   }
 
   async getData() {
@@ -29,6 +101,9 @@ export class AppHome {
           </ion-buttons>
           <ion-title>Who use Ionic?</ion-title>
           <ion-buttons slot="end">
+            <ion-button onClick={() => this.showSortAlert()}>
+              <ion-icon name="funnel" />
+            </ion-button>
             <ion-button href="https://github.com/ionic-jp/who-use-ionic">
               <ion-icon name="logo-github" />
             </ion-button>
@@ -41,7 +116,11 @@ export class AppHome {
           {(() => {
             const list = [];
             for (const product of this.products) {
-              list.push(<product-card product={product} />);
+              if (this.countryCode == "ALL") {
+                list.push(<product-card product={product} />);
+              } else if (this.countryCode == product.country) {
+                list.push(<product-card product={product} />);
+              }
             }
             return list;
           })()}
