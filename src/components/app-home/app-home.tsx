@@ -31,7 +31,7 @@ export class AppHome {
           type: "radio",
           label: "すべて",
           value: "ALL",
-          checked: this.countryCode == "all"
+          checked: this.countryCode == "ALL"
         },
         {
           name: "jp",
