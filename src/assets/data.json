@@ -299,6 +299,7 @@
       "description": "音声ARアプリ",
       "author": "Hakuhodo DY media partners Inc.",
       "websiteUrl": "https://33tab.jp/",
+      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/33tab-%E3%83%9F%E3%83%9F%E3%82%BF%E3%83%96-%E9%9F%B3%E5%A3%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%A2%E3%83%97%E3%83%AA/id1435718418?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.co.hakuhodody_media.mimitab",
