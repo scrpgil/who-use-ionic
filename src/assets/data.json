@@ -6,7 +6,6 @@
       "description": "ビールのSNS",
       "author": "Untappd",
       "websiteUrl": "https://untappd.com/",
-      "country": "US",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/untappd-discover-beer/id449141888?mt=8",
         "android": "https://play.google.com/store/apps/details?id=com.untappdllc.app&hl=ja",
@@ -19,7 +18,6 @@
       "description": "瞑想アプリ",
       "author": "Pacifica Labs",
       "websiteUrl": "https://www.thinkpacifica.com/",
-      "country": "US",
       "platform": {
         "ios": "https://itunes.apple.com/us/app/pacifica-tools-for-stress/id922968861?mt=8&ign-mpt=uo%3D6",
         "android": "https://play.google.com/store/apps/details?id=com.pacificalabs.pacifica",
@@ -32,7 +30,6 @@
       "description": "動画配信検索エンジン",
       "author": "JustWatch, inc.",
       "websiteUrl": "https://www.justwatch.com/jp",
-      "country": "US",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/justwatch%E6%98%A0%E7%94%BB-%E3%83%86%E3%83%AC%E3%83%93%E7%95%AA%E7%B5%84/id979227482?mt=8",
         "android": "https://play.google.com/store/apps/details?id=com.justwatch.justwatch&hl=ja",
@@ -45,7 +42,6 @@
       "description": "筋トレアプリ",
       "author": "Nexercise Apps, Inc.",
       "websiteUrl": "https://sworkit.com/",
-      "country": "US",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/sworkit-%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC/id527219710?mt=8",
         "android": "https://play.google.com/store/apps/details?id=sworkitapp.sworkit.com&hl=ja",
@@ -58,7 +54,6 @@
       "description": "ニュースアプリ",
       "author": "Techfeed",
       "websiteUrl": "https://techfeed.io",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/techfeed/id1135796018?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.co.openweb.TechFeed&hl=ja",
@@ -71,7 +66,6 @@
       "description": "女性専用SNS",
       "author": "一般社団法人リレーションデザイン研究所",
       "websiteUrl": "https://www.tipsys.me/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/tipsys/id1142546640?l=jp&mt=8/",
         "android": "https://play.google.com/store/apps/details?id=jp.rdlabo.tipsys",
@@ -84,7 +78,6 @@
       "image": "https://imgur.com/p5c9hSp.png",
       "author": "Dow Jones & Company, Inc.",
       "websiteUrl": "https://www.marketwatch.com/",
-      "country": "US",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/marketwatch-news-data/id336693422?mt=8",
         "android": "https://play.google.com/store/apps/details?id=com.marketwatch&hl=ja",
@@ -97,7 +90,6 @@
       "description": "仮想通貨NEMウォレット",
       "author": "@scrpgil",
       "websiteUrl": "https://picowallet.net",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -110,7 +102,6 @@
       "description": "マッチングアプリ",
       "author": "kineca",
       "websiteUrl": "https://pato.today/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "https://play.google.com/store/apps/details?id=jp.hikaruyamamoto.pato",
@@ -123,7 +114,6 @@
       "description": "女性向けニュースアプリ",
       "author": "mostyplace",
       "websiteUrl": "https://noel-media.jp/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/noel-%E3%83%8E%E3%82%A8%E3%83%AB-%E5%A5%B3%E6%80%A7%E5%90%91%E3%81%91%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2/id1447207168",
         "android": "https://play.google.com/store/apps/details?id=jp.mostyplace.noel",
@@ -136,7 +126,6 @@
       "description": "マッチングアプリ",
       "author": "paddy67",
       "websiteUrl": "https://paddy67.today/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "https://play.google.com/store/apps/details?id=jp.jun.yoshida.paddy&hl=ja",
@@ -148,7 +137,6 @@
       "description": "読書管理アプリ",
       "author": "@0918nobita",
       "websiteUrl": "https://tsundoku.tech/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -161,7 +149,6 @@
       "description": "公式サイト",
       "author": "@rdlabo",
       "websiteUrl": "https://www.ppp-ps.net/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -173,7 +160,6 @@
       "description": "公式サイト",
       "author": "@rdlabo",
       "websiteUrl": "https://www.rabify.me/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -185,7 +171,6 @@
       "description": "公式サイト",
       "author": "@rdlabo",
       "websiteUrl": "https://www.rdlabo.jp/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -198,7 +183,6 @@
       "description": "アスキーアート まとめサイト",
       "author": "@scrpgil",
       "websiteUrl": "https://aahub.org",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -211,7 +195,6 @@
       "description": "アスキーアート 投稿サイト",
       "author": "@scrpgil",
       "websiteUrl": "https://b.aahub.org",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -223,7 +206,6 @@
       "description": "AA用フォントまとめサイト",
       "author": "@scrpgil",
       "websiteUrl": "https://fonts.aahub.org",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -236,7 +218,6 @@
       "description": "日程調整アプリ",
       "author": "@__shinji__",
       "websiteUrl": "https://aitemasu.me/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/%E3%82%A2%E3%82%A4%E3%83%86%E3%83%9E%E3%82%B9-%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB-%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E3%82%A2%E3%83%97%E3%83%AA/id1439282801?mt=8",
         "android": "https://play.google.com/store/apps/details?id=me.aitemasu.app",
@@ -249,7 +230,6 @@
       "description": "アイドルのカード購入サイト",
       "author": "@biga816",
       "websiteUrl": "https://demo.rights-dapp.net",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -262,7 +242,6 @@
       "description": "三井住友銀行アプリ",
       "author": "三井住友銀行",
       "websiteUrl": "https://www.smbc.co.jp/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E9%8A%80%E8%A1%8C%E3%82%A2%E3%83%97%E3%83%AA/id594457652?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.co.smbc.direct&hl=ja",
@@ -274,7 +253,6 @@
       "description": "NEMを使ったチケット管理demo",
       "author": "@scrpgil",
       "websiteUrl": "https://nempass.com/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -286,7 +264,6 @@
       "description": "NEMを使ったファイル保存システム",
       "author": "@scrpgil",
       "websiteUrl": "http://p2p.nempass.com/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -299,7 +276,6 @@
       "description": "音声ARアプリ",
       "author": "Hakuhodo DY media partners Inc.",
       "websiteUrl": "https://33tab.jp/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/33tab-%E3%83%9F%E3%83%9F%E3%82%BF%E3%83%96-%E9%9F%B3%E5%A3%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%A2%E3%83%97%E3%83%AA/id1435718418?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.co.hakuhodody_media.mimitab",
@@ -311,7 +287,6 @@
       "description": "みんなで地図が作れるアプリ",
       "author": "@minnanochizu",
       "websiteUrl": "https://mchizu.tabiji.life/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -323,7 +298,6 @@
       "description": "地元応援・地域情報アプリ",
       "author": "ホッピングリンク",
       "websiteUrl": "https://hopping.link/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/id1394432726?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.webta.hopping",
@@ -335,7 +309,6 @@
       "description": "マッチングアプリ",
       "author": "STRACT, Inc.",
       "websiteUrl": "http://dately.jp/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -347,7 +320,6 @@
       "description": "外国人観光客向けアプリ",
       "author": "Payke ",
       "websiteUrl": "https://payke.co.jp/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/payke!/id1040452788?mt=8&ign-mpt=uo%3D4",
         "android": "https://play.google.com/store/apps/details?id=jp.co.payke.Payke1&hl=ja",
@@ -359,7 +331,6 @@
       "description": "筋トレ管理アプリ",
       "author": "Workoutholic",
       "websiteUrl": "",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/us/app/workoutholic/id1276603791?mt=8",
         "android": "",
@@ -371,7 +342,6 @@
       "description": "スプラトゥーンっていうゲームの使用武器をランダムに選んでワイワイするツール",
       "author": "shinya saiho",
       "websiteUrl": "",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/%E3%82%A4%E3%82%AB%E3%81%99%E3%83%AD%E3%83%83%E3%83%88-for-splatoon2/id1327350262?mt=8",
         "android": "",
@@ -384,7 +354,6 @@
       "description": "保険管理アプリ",
       "author": "iChain",
       "websiteUrl": "https://www.ichain.co.jp/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/ichain%E4%BF%9D%E9%99%BA%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88/id1383149670?l=ja&ls=1&mt=8",
         "android": "https://play.google.com/store/apps/details?id=com.love.ichain&hl=ja",
@@ -396,7 +365,6 @@
       "description": "プチプラファッションのコーディネートアプリ",
       "author": "chiaki",
       "websiteUrl": "https://chiilog.com/2018/03/19/925/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -409,7 +377,6 @@
       "description": "美容医療・整形SNSアプリ",
       "author": "株式会社Meily",
       "websiteUrl": "https://about.meily.co.jp/about/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/id1348238335?mt=8",
         "android": "",
@@ -422,7 +389,6 @@
       "description": "名言シェアアプリ",
       "author": "@kenishhhhh",
       "websiteUrl": "",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/%E3%82%A4%E3%82%A4%E3%82%B3%E3%83%88%E3%82%A4%E3%82%A6%E3%83%8D%E3%82%A8/id1450746419?mt=8",
         "android": "",
@@ -434,7 +400,6 @@
       "description": "非常時に持ち出すリスト",
       "author": "@maki_saki",
       "websiteUrl": "https://saigai.netlify.com/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -446,7 +411,6 @@
       "description": "建築用語集",
       "author": "SOGO SHIKAKU CO., LTD.",
       "websiteUrl": "",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/e-%E5%BB%BA%E7%AF%89%E7%94%A8%E8%AA%9E%E9%9B%86/id850287060?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.co.shikaku.android.glossary",
@@ -458,7 +422,6 @@
       "description": "ホテルのストリートビュー",
       "author": "@a_zumii",
       "websiteUrl": "https://twitter.com/a_zumii/status/977330695088435200",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -470,7 +433,6 @@
       "description": "RPGアプリっぽいのをIonicのデモとしてつくりまし",
       "author": "@rdlabo",
       "websiteUrl": "https://twitter.com/rdlabo/status/976333215290937344",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -482,7 +444,6 @@
       "description": "機械学習によるゲームの予測スコア提供アプリ",
       "author": "@i_terashima",
       "websiteUrl": "https://twitter.com/i_terashima/status/973457912088547328",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "https://play.google.com/store/apps/details?id=io.iterashima.gp",
@@ -495,7 +456,6 @@
       "description": "タスクアプリ",
       "author": "@maki_saki",
       "websiteUrl": "https://houbingo.com/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "https://play.google.com/store/apps/details?id=com.houbingo&rdid=com.houbingo",
@@ -508,7 +468,6 @@
       "description": "ゲームマガジンのアプリ",
       "author": "株式会社バカー",
       "websiteUrl": "https://gamemaga.denfaminicogamer.jp/",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "https://play.google.com/store/apps/details?id=jp.co.dwango.gamemaga&hl=ja&rdid=jp.co.dwango.gamemaga",
@@ -520,7 +479,6 @@
       "description": "バックオフィス管理ツール",
       "author": "altafonte",
       "websiteUrl": "https://altafonte.com/",
-      "country": "ES",
       "platform": {
         "ios": "",
         "android": "",
@@ -532,7 +490,6 @@
       "description": "イランで第1位のオンデマンド配達および輸送サービス",
       "author": "ALOPEYK LTD",
       "websiteUrl": "https://dashboard.alopeyk.com/#",
-      "country": "IR",
       "platform": {
         "ios": "",
         "android": "",
@@ -544,7 +501,6 @@
       "description": "オンラインカジノ",
       "author": "betshah",
       "websiteUrl": "http://endlessaisle.eat.aceturtle.in/",
-      "country": "CW",
       "platform": {
         "ios": "",
         "android": "",
@@ -556,7 +512,6 @@
       "description": "ポケモンGoのコンパニオンアプリ",
       "author": "Matt\tKremer ",
       "websiteUrl": "https://blog.ionicframework.com/how-i-built-launched-an-app-in-2-weeks-to-40000-users-with-ionic/",
-      "country": "US",
       "platform": {
         "ios": "https://itunes.apple.com/us/app/go-ranger/id1415152537",
         "android": "https://play.google.com/store/apps/details?id=app.goranger.android",
@@ -568,7 +523,6 @@
       "description": "Azureを使った犬種識別アプリのデモ",
       "author": "@Justinwillis96",
       "websiteUrl": "",
-      "country": "US",
       "platform": {
         "ios": "",
         "android": "",
@@ -580,7 +534,6 @@
       "description": "イベント管理アプリ",
       "author": "eventOne",
       "websiteUrl": "https://event1.io/app",
-      "country": "US",
       "platform": {
         "ios": "https://play.google.com/store/apps/details?id=io.event1.shared",
         "android": "https://play.google.com/store/apps/details?id=io.event1.shared",
@@ -592,7 +545,6 @@
       "description": "Elm + GraphQL+ Yelpのデモアプリ",
       "author": "@ciekawy",
       "websiteUrl": "",
-      "country": "US",
       "platform": {
         "ios": "",
         "android": "",
@@ -604,7 +556,6 @@
       "description": "嫁や彼女の惚気投稿をするサイト",
       "author": "@maki_saki",
       "websiteUrl": "",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/us/app//id1261036550?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.rdlabo.orenoyome&hl=ja",
@@ -617,7 +568,6 @@
       "description": "まちを本気で変える人のためのWebマガジン",
       "author": "AreaInnovationAlliance, Inc",
       "websiteUrl": "http://air.areaia.jp/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/areainnovationreview/id1247339173?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.areaia.areainnovationreview&rdid=jp.areaia.areainnovationreview",
@@ -630,7 +580,6 @@
       "description": "3ピースロックバンド「SHISHAMO」の公式アプリ(通称「ししゃモバ」)",
       "author": "CRAYON Inc.",
       "websiteUrl": "https://c-rayon.com/shishamo/app/index.html",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/id1440170137",
         "android": "https://play.google.com/store/apps/details?id=com.c_rayon.shishamo",
@@ -643,7 +592,6 @@
       "description": "業者と施主をつなぐ施工管理アプリ",
       "author": "TwoGate inc.",
       "websiteUrl": "https://housegate.jp/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/house-gate/id1258061724",
         "android": "https://play.google.com/store/apps/details?id=jp.housegate.app",
@@ -656,7 +604,6 @@
       "description": "大人気ゲーム「逆転オセロニア」の攻略アプリです。",
       "author": "ICS INC.",
       "websiteUrl": "",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/jp/app/%E6%94%BB%E7%95%A5%E3%82%A2%E3%83%97%E3%83%AA-%E9%80%86%E8%BB%A2%E3%81%AE%E6%9B%B8-for-%E9%80%86%E8%BB%A2%E3%82%AA%E3%82%BB%E3%83%AD%E3%83%8B%E3%82%A2/id1149258978?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.icsweb.othelloniastrategy&hl=ja",
@@ -669,7 +616,6 @@
       "description": "自分にピッタリなバイトを探せるアプリ",
       "author": "PERSOL CAREER CO., LTD.",
       "websiteUrl": "https://weban.jp/contents/c/smartphone_apri/",
-      "country": "JP",
       "platform": {
         "ios": "https://itunes.apple.com/app/id543829599?mt=8",
         "android": "https://play.google.com/store/apps/details?id=jp.weban.anapp&hl=ja",
@@ -682,7 +628,6 @@
       "description": "Ionic&microsoftgraphで作られたホワイトボード",
       "author": "@Justinwillis96",
       "websiteUrl": "https://github.com/jgw96/web-whiteboard",
-      "country": "US",
       "platform": {
         "ios": "",
         "android": "",
@@ -695,7 +640,6 @@
       "description": "某つり革広告のジェネレーター",
       "author": "@scrpgil",
       "websiteUrl": "https://mobile.twitter.com/scrpgil/status/1138631892108947456",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
@@ -708,11 +652,22 @@
       "description": "スマホ対応の幻魔大戦ブログ",
       "author": "WO8TimeSpace175ZERO2",
       "websiteUrl": "https://github.com/WO8TimeSpace175ZERO2/genma-taisen-to-the-north-of-kanamachi",
-      "country": "JP",
       "platform": {
         "ios": "",
         "android": "",
         "web": "https://eager-kilby-e6c21f.netlify.com/"
+      }
+    },
+    {
+      "name": "広島の謎1 宮島の謎",
+      "image": "./assets/images/mistery-of-hiroshima.png",
+      "description": "1本ずつ広島の全貌を解き明かしていくシリーズアプリ",
+      "author": "峰山進",
+      "websiteUrl": "https://rakunet.org/nazo/",
+      "platform": {
+        "ios": "https://apps.apple.com/jp/app/mistery-of-hiroshima-1/id1481022754",
+        "android": "https://play.google.com/store/apps/details?id=org.rakunet.nazo1",
+        "web": "https://rakunet.org/nazo/"
       }
     }
   ]
