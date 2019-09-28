@@ -714,6 +714,18 @@
         "android": "",
         "web": "https://eager-kilby-e6c21f.netlify.com/"
       }
+    },
+    {
+      "name": "広島の謎1 宮島の謎",
+      "image": "./assets/images/mistery-of-hiroshima.png",
+      "description": "1本ずつ広島の全貌を解き明かしていくシリーズアプリ",
+      "author": "峰山進",
+      "websiteUrl": "https://rakunet.org/nazo/",
+      "platform": {
+        "ios": "https://apps.apple.com/jp/app/mistery-of-hiroshima-1/id1481022754",
+        "android": "https://play.google.com/store/apps/details?id=org.rakunet.nazo1",
+        "web": "https://rakunet.org/nazo/"
+      }
     }
   ]
 }
