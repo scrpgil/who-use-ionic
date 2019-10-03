@@ -727,6 +727,19 @@
         "android": "https://play.google.com/store/apps/details?id=org.rakunet.nazo1",
         "web": "https://rakunet.org/nazo/"
       }
+    },
+    {
+      "name": "日本酒ゴーアラウンド大阪 2019 公式サイト",
+      "image": "",
+      "description": "毎年10月1日に行われる日本酒イベントのサイト",
+      "author": "タダフラ",
+      "websiteUrl": "https://nga-osaka.com",
+      "country": "JP",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://nga-osaka.com"
+      }
     }
   ]
 }
