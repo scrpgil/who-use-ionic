@@ -727,6 +727,19 @@
         "android": "https://play.google.com/store/apps/details?id=org.rakunet.nazo1",
         "web": "https://rakunet.org/nazo/"
       }
+    },
+     {
+      "name": "性活カレンダー",
+      "image": "./assets/images/hCalendar.jpeg",
+      "description": "パートナーとの営みをカレンダーで記録",
+      "author": "Gento",
+      "websiteUrl": "",
+      "country": "JP",
+      "platform": {
+        "ios": "https://apps.apple.com/jp/app/性活カレンダー/id1484151444?mt=8",
+        "android": "https://play.google.com/store/apps/details?id=com.hCalendar.app",
+        "web": ""
+      }
     }
   ]
 }
