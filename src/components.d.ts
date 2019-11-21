@@ -10,6 +10,7 @@ import {
   IProduct,
 } from './models/product';
 
+
 export namespace Components {
   interface AppHome {}
   interface AppRoot {}
@@ -18,37 +19,10 @@ export namespace Components {
   }
 }
 
-declare global {
-
-
-  interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {}
-  var HTMLAppHomeElement: {
-    prototype: HTMLAppHomeElement;
-    new (): HTMLAppHomeElement;
-  };
-
-  interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {}
-  var HTMLAppRootElement: {
-    prototype: HTMLAppRootElement;
-    new (): HTMLAppRootElement;
-  };
-
-  interface HTMLProductCardElement extends Components.ProductCard, HTMLStencilElement {}
-  var HTMLProductCardElement: {
-    prototype: HTMLProductCardElement;
-    new (): HTMLProductCardElement;
-  };
-  interface HTMLElementTagNameMap {
-    'app-home': HTMLAppHomeElement;
-    'app-root': HTMLAppRootElement;
-    'product-card': HTMLProductCardElement;
-  }
-}
-
 declare namespace LocalJSX {
-  interface AppHome extends JSXBase.HTMLAttributes<HTMLAppHomeElement> {}
-  interface AppRoot extends JSXBase.HTMLAttributes<HTMLAppRootElement> {}
-  interface ProductCard extends JSXBase.HTMLAttributes<HTMLProductCardElement> {
+  interface AppHome extends JSXBase.HTMLAttributes {}
+  interface AppRoot extends JSXBase.HTMLAttributes {}
+  interface ProductCard extends JSXBase.HTMLAttributes {
     'product'?: IProduct;
   }
 
@@ -68,4 +42,35 @@ declare module "@stencil/core" {
   }
 }
 
+
+declare global {
+
+
+
+  interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {}
+  var HTMLAppHomeElement: {
+    prototype: HTMLAppHomeElement;
+    new (): HTMLAppHomeElement;
+  };
+
+  interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {}
+  var HTMLAppRootElement: {
+    prototype: HTMLAppRootElement;
+    new (): HTMLAppRootElement;
+  };
+
+  interface HTMLProductCardElement extends Components.ProductCard, HTMLStencilElement {}
+  var HTMLProductCardElement: {
+    prototype: HTMLProductCardElement;
+    new (): HTMLProductCardElement;
+  };
+
+  interface HTMLElementTagNameMap {
+    'app-home': HTMLAppHomeElement;
+    'app-root': HTMLAppRootElement;
+    'product-card': HTMLProductCardElement;
+  }
+
+  interface ElementTagNameMap extends HTMLElementTagNameMap {}
+}
 

@@ -71,13 +71,13 @@ export class AppHome {
       ],
       buttons: [
         {
-          text: "Cancel",
+          text: "キャンセル",
           role: "cancel",
           cssClass: "secondary",
           handler: () => {}
         },
         {
-          text: "Ok",
+          text: "絞り込む",
           handler: data => {
             this.countryCode = data;
           }
@@ -101,9 +101,6 @@ export class AppHome {
           </ion-buttons>
           <ion-title>Who use Ionic?</ion-title>
           <ion-buttons slot="end">
-            <ion-button onClick={() => this.showSortAlert()}>
-              <ion-icon name="funnel" />
-            </ion-button>
             <ion-button href="https://github.com/ionic-jp/who-use-ionic">
               <ion-icon name="logo-github" />
             </ion-button>
@@ -125,6 +122,11 @@ export class AppHome {
             return list;
           })()}
         </div>
+        <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+          <ion-fab-button onClick={() => this.showSortAlert()}>
+            <ion-icon name="funnel"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
       </ion-content>
     ];
   }
