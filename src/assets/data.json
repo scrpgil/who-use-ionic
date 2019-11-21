@@ -1,6 +1,19 @@
 {
   "products": [
     {
+      "name": "FrontConf2019アプリ",
+      "image": "./assets/images/frontconf2019.png",
+      "description": "デモアプリ",
+      "author": "Ionic Japan User Group",
+      "websiteUrl": "https://ionicframework.jp",
+      "country": "JP",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://kfug2019.ionicframework.jp/"
+      }
+    },
+    {
       "name": "Untappd",
       "image": "https://imgur.com/XuHahrT.png",
       "description": "ビールのSNS",
@@ -751,7 +764,33 @@
       "platform": {
         "ios": "https://apps.apple.com/jp/app/性活カレンダー/id1484151444?mt=8",
         "android": "https://play.google.com/store/apps/details?id=com.hCalendar.app",
-        "web": ""      
+        "web": ""
+      }
+    },
+    {
+      "name": "Developers.IO CAFE",
+      "image": "",
+      "description": "キャッシュレスカフェアプリ",
+      "author": "クラスメソッド株式会社",
+      "websiteUrl": "https://cafe.classmethod.jp/",
+      "country": "JP",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "https://sprout.devio.jp/"
+      }
+    },
+    {
+      "name": "週末モデル",
+      "image": "",
+      "description": "副業モデル活動を支援アプリ",
+      "author": "株式会社MONOKROM",
+      "websiteUrl": "https://weekend-model.com/",
+      "country": "JP",
+      "platform": {
+        "ios": "https://itunes.apple.com/jp/app/id1284035393?mt=8",
+        "android": "https://play.google.com/store/apps/details?id=jp.monokrom.wemodel.android",
+        "web": ""
       }
     }
   ]
