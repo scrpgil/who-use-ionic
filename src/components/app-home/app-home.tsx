@@ -96,13 +96,13 @@ export class AppHome {
         <ion-toolbar color="primary">
           <ion-buttons slot="start">
             <ion-button href="https://ionicframework.jp">
-              <ion-icon size="large" name="logo-ionic" />
+              <ion-icon slot="icon-only" size="large" name="logo-ionic" />
             </ion-button>
           </ion-buttons>
           <ion-title>Who use Ionic?</ion-title>
           <ion-buttons slot="end">
             <ion-button href="https://github.com/ionic-jp/who-use-ionic">
-              <ion-icon name="logo-github" />
+              <ion-icon slot="icon-only" name="logo-github" />
             </ion-button>
           </ion-buttons>
         </ion-toolbar>
