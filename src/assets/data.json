@@ -1,6 +1,18 @@
 {
   "products": [
     {
+      "name": "パパダッシュ!!",
+      "image": "https://i.imgur.com/A2ZrPee.png",
+      "description": "家庭のタスク共有アプリ",
+      "author": "@maki_saki",
+      "websiteUrl": "http://papa-dash.com/",
+      "platform": {
+        "ios": "",
+        "android": "",
+        "web": "http://app.papa-dash.com/"
+      }
+    },
+    {
       "name": "Untappd",
       "image": "https://imgur.com/XuHahrT.png",
       "description": "ビールのSNS",
