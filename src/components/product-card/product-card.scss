@@ -19,18 +19,29 @@ product-card {
     height: calc(100% - 20px);
     padding-bottom: 36px;
     position: relative;
-    .platforms-wrapper {
-      display: flex;
-      justify-content: flex-end;
-    }
     ion-img {
       min-height: 150px;
     }
     .card-footer {
       padding-top: 16px;
+      width: 100%;
       position: absolute;
+      display: flex;
+      align-items: center;
       bottom: 0;
       right: 0;
+      justify-content: flex-start;
+      .flag-wrapper {
+        margin-left: 16px;
+        i {
+          border: 1px solid #e6e6e6;
+        }
+      }
+      .platforms-wrapper {
+        display: flex;
+        margin-left: auto;
+        justify-content: flex-end;
+      }
     }
   }
 }

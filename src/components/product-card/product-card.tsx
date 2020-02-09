@@ -12,7 +12,14 @@ export class AppHome {
     return (
       <ion-card>
         {(() => {
-          return <ion-img src={`${this.product.image ? this.product.image : 'assets/blank.png'}`} alt=""></ion-img>;
+          return (
+            <ion-img
+              src={`${
+                this.product.image ? this.product.image : "assets/blank.png"
+              }`}
+              alt=""
+            />
+          );
         })()}
         <ion-card-header>
           <ion-card-subtitle>{this.product.author}</ion-card-subtitle>
@@ -21,9 +28,15 @@ export class AppHome {
         <ion-card-content>
           {(() => {
             if (this.product.websiteUrl) {
-              const displayUrl = this.product.websiteUrl.match(/^https?:\/{2,}(.*?)(?:\/|\?|#|$)/)[1];
+              const displayUrl = this.product.websiteUrl.match(
+                /^https?:\/{2,}(.*?)(?:\/|\?|#|$)/
+              )[1];
               return (
-                <a href={this.product.websiteUrl} target="_blank" rel="noopener">
+                <a
+                  href={this.product.websiteUrl}
+                  target="_blank"
+                  rel="noopener"
+                >
                   {displayUrl}
                 </a>
               );
@@ -32,6 +45,9 @@ export class AppHome {
           <div>{this.product.description}</div>
         </ion-card-content>
         <div class="card-footer">
+          <div class="flag-wrapper">
+              <i class={`flag-icon flag-icon-${this.product.country.toLowerCase()}`}></i>
+      </div>
           <div class="platforms-wrapper">
             <ion-button
               fill="clear"
