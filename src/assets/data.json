@@ -792,6 +792,19 @@
         "android": "https://play.google.com/store/apps/details?id=jp.monokrom.wemodel.android",
         "web": ""
       }
-    }
+    },
+    {
+      "name": "ペットじまん",
+      "image": "./assets/images/petjiman.png",
+      "description": "ペット好きが集まるペット専用SNSアプリ",
+      "author": "ryo.naruse",
+      "websiteUrl": "https://twitter.com/petjiman_app",
+      "country": "JP",
+      "platform": {
+        "ios": "https://apps.apple.com/jp/app/id1494069672",
+        "android": "https://play.google.com/store/apps/details?id=pet.jiman.production",
+        "web": "https://jiman.pet/"
+      }
+    },
   ]
 }
