@@ -1,4 +1,4 @@
-import { Component, h, Prop, State } from "@stencil/core";
+import { Component, h, State } from "@stencil/core";
 import { DataProvider } from "../../providers/data";
 import { IProduct } from "../../models/product";
 
@@ -8,10 +8,6 @@ import { IProduct } from "../../models/product";
 })
 export class AppHome {
   @State() products: IProduct[] = [];
-
-  @Prop({ connect: "ion-alert-controller" })
-  alertCtrl: HTMLIonAlertControllerElement;
-
   @State() countryCode: string = "ALL";
 
   async componentWillLoad() {
@@ -23,68 +19,68 @@ export class AppHome {
   }
 
   async showSortAlert() {
-    const alert = await this.alertCtrl.create({
-      header: "国で絞り込み",
-      inputs: [
-        {
-          name: "all",
-          type: "radio",
-          label: "すべて",
-          value: "ALL",
-          checked: this.countryCode == "ALL"
-        },
-        {
-          name: "jp",
-          type: "radio",
-          label: "日本",
-          value: "JP",
-          checked: this.countryCode == "JP"
-        },
-        {
-          name: "us",
-          type: "radio",
-          label: "アメリカ",
-          value: "US",
-          checked: this.countryCode == "US"
-        },
-        {
-          name: "es",
-          type: "radio",
-          label: "スペイン",
-          value: "ES",
-          checked: this.countryCode == "ES"
-        },
-        {
-          name: "ir",
-          type: "radio",
-          label: "イラン",
-          value: "IR",
-          checked: this.countryCode == "IR"
-        },
-        {
-          name: "cw",
-          type: "radio",
-          label: "キュラソー",
-          value: "CW",
-          checked: this.countryCode == "CW"
-        },
-      ],
-      buttons: [
-        {
-          text: "キャンセル",
-          role: "cancel",
-          cssClass: "secondary",
-          handler: () => {}
-        },
-        {
-          text: "絞り込む",
-          handler: data => {
-            this.countryCode = data;
-          }
+    const alert = document.createElement("ion-alert");
+    alert.header = "国で絞り込み";
+    alert.inputs = [
+      {
+        name: "all",
+        type: "radio",
+        label: "すべて",
+        value: "ALL",
+        checked: this.countryCode == "ALL"
+      },
+      {
+        name: "jp",
+        type: "radio",
+        label: "日本",
+        value: "JP",
+        checked: this.countryCode == "JP"
+      },
+      {
+        name: "us",
+        type: "radio",
+        label: "アメリカ",
+        value: "US",
+        checked: this.countryCode == "US"
+      },
+      {
+        name: "es",
+        type: "radio",
+        label: "スペイン",
+        value: "ES",
+        checked: this.countryCode == "ES"
+      },
+      {
+        name: "ir",
+        type: "radio",
+        label: "イラン",
+        value: "IR",
+        checked: this.countryCode == "IR"
+      },
+      {
+        name: "cw",
+        type: "radio",
+        label: "キュラソー",
+        value: "CW",
+        checked: this.countryCode == "CW"
+      }
+    ];
+    alert.buttons = [
+      {
+        text: "キャンセル",
+        role: "cancel",
+        cssClass: "secondary",
+        handler: () => {}
+      },
+      {
+        text: "絞り込む",
+        handler: data => {
+          this.countryCode = data;
         }
-      ]
-    });
-    await alert.present();
+      }
+    ];
+    document.body.appendChild(alert);
+    return alert.present();
   }
 
   async getData() {
@@ -124,7 +120,7 @@ export class AppHome {
         </div>
         <ion-fab vertical="bottom" horizontal="end" slot="fixed">
           <ion-fab-button onClick={() => this.showSortAlert()}>
-            <ion-icon name="funnel"></ion-icon>
+            <ion-icon name="funnel" />
           </ion-fab-button>
         </ion-fab>
       </ion-content>

@@ -15,8 +15,8 @@
     "formatter": "prettier --parser typescript --write \"./**/*.ts\""
   },
   "dependencies": {
-    "@ionic/core": "4.10.3",
-    "@stencil/sass": "1.1.1",
+    "@ionic/core": "^5.0.1",
+    "@stencil/sass": "^1.1.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.17.1"
   },
