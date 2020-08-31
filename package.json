@@ -15,13 +15,13 @@
     "formatter": "prettier --parser typescript --write \"./**/*.ts\""
   },
   "dependencies": {
-    "@ionic/core": "^5.0.1",
-    "@stencil/sass": "^1.1.1",
+    "@ionic/core": "^5.3.2",
+    "@stencil/sass": "^1.3.2",
     "pre-commit": "^1.2.2",
     "prettier": "^1.17.1"
   },
   "devDependencies": {
-    "@stencil/core": "1.8.1"
+    "@stencil/core": "^2.0.1"
   },
   "pre-commit": [
     "formatter"
