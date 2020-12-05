@@ -42,12 +42,14 @@ export class AppHome {
               );
             }
           })()}
-          <div>{this.product.description}</div>
+          <div class="card-description">{this.product.description}</div>
         </ion-card-content>
         <div class="card-footer">
           <div class="flag-wrapper">
-              <i class={`flag-icon flag-icon-${this.product.country.toLowerCase()}`}></i>
-      </div>
+            <i
+              class={`flag-icon flag-icon-${this.product.country.toLowerCase()}`}
+            />
+          </div>
           <div class="platforms-wrapper">
             <ion-button
               fill="clear"
