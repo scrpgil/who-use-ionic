@@ -32,23 +32,23 @@ export class AppHome {
 
             <ul class="list-native">
               <li>
-                <ion-button href="https://ionicframework.jp/docs/" fill="clear" size="large">
+                <ion-button href="https://ionicframework.jp/docs/" fill="clear" size="large" target="_blank">
                   <ion-icon name="logo-ionic" slot="start" color="primary"></ion-icon>Ionic Framework
                 </ion-button>
               </li>
               <li>
-                <ion-button href="https://capacitorjs.jp/" fill="clear" size="large">
+                <ion-button href="https://capacitorjs.jp/" fill="clear" size="large" target="_blank">
                   <ion-icon name="logo-stencil" slot="start" color="secondary"></ion-icon>Capacitor
                 </ion-button>
               </li>
               <li>
-                <ion-button href="https://stenciljs.jp/" fill="clear" size="large">
+                <ion-button href="https://stenciljs.jp/" fill="clear" size="large" target="_blank">
                   <ion-icon name="logo-capacitor" slot="start" color="medium"></ion-icon>Stencil
                 </ion-button>
               </li>
             </ul>
             <div class="slack-card">
-              <ion-card href="https://ionic-jp.herokuapp.com">
+              <ion-card href="https://ionic-jp.herokuapp.com" target="_blank">
                 <ion-card-content>
                   <img src="./assets/logo/slack.svg" width="120px" />
                   <p>興味がある方は、まずはslackにご参加ください！</p>
