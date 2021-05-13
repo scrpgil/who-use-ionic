@@ -3,6 +3,7 @@ import { Component, Host, h } from '@stencil/core';
 @Component({
   tag: 'app-header',
   styleUrl: 'app-header.scss',
+  shadow: true,
 })
 export class AppHeader {
   render() {
@@ -11,7 +12,7 @@ export class AppHeader {
         <ion-header>
           <ion-toolbar>
             <ion-buttons slot="start">
-              <ion-button href="https://ionicframework.jp">
+              <ion-button href="/">
                 <ion-icon slot="icon-only" name="logo-ionic" />
               </ion-button>
             </ion-buttons>
@@ -21,10 +22,10 @@ export class AppHeader {
                 <ion-icon name="library-outline" slot="start"></ion-icon>
                 日本語ドキュメンテーション
               </ion-button>
-              <ion-button href="https://ionicframework.jp/case">
+              <ion-button href="/case">
                 利用事例
               </ion-button>
-              <ion-button href="https://github.com/ionic-jp/who-use-ionic">
+              <ion-button href="https://github.com/ionic-jp/community-site" target="_blank">
                 <ion-icon slot="icon-only" name="logo-github" />
               </ion-button>
             </ion-buttons>

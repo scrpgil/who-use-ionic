@@ -6,14 +6,15 @@ import Helmet from '@stencil/helmet';
 
 @Component({
   tag: "app-case",
-  styleUrl: "app-case.scss"
+  styleUrl: "app-case.scss",
+  shadow: true,
 })
 export class AppCase {
   @State() products: IProduct[] = [];
   @State() countryCode: string = "ALL";
 
-  async componentWillLoad() {
-    await this.getData();
+  componentWillLoad() {
+    this.getData().then();
   }
 
   async showSortAlert() {
@@ -52,7 +53,7 @@ export class AppCase {
           <meta property="og:image" content="https://ionicframework.com/img/meta/ionic-framework-og.png"/>
           <meta property="og:description" content="Ionicの利用事例を集めたショーケース"/>
         </Helmet>
-        <app-header><h1>Ionic利用事例集</h1></app-header>
+        <app-header>Ionic利用事例集</app-header>
         <ion-content class="ion-padding">
           <div class="products-wrapper">
             {(() => {

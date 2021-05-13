@@ -17,8 +17,11 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <meta http-equiv="x-ua-compatible" content="IE=Edge">
-  <link rel="canonical" href="https://ionicframework.jp/case/" class="url" />
-  <base target="_blank">
+
+  <script type="module" src="/build/app.esm.js"></script>
+  <script nomodule src="/build/app.js"></script>
+
+  <link rel="canonical" href="https://ionicframework.jp/" class="url" />
 
   <link href="build/app.css" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
@@ -26,9 +29,6 @@
   <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
   <link rel="manifest" href="manifest.json">
   <style>
-    html:not(.hydrated) body {
-      display: block;
-    }
     #routerLoading {
       width: 50px; height: 50px;
       border: 2px solid #fcfcfc;
@@ -48,11 +48,9 @@
 </head>
 
 <body>
-  <div id="routerLoading" style="border-color: #fcfcfc; border-top-color: #3880ff;"></div>
+  <script></script>
+  <div id="routerLoading" style="border-top-color: #3880ff;"></div>
   <app-root></app-root>
-  <noscript>Please enable JavaScript to continue using this application.</noscript>
-  <script type="module" src="build/app.esm.js"></script>
-  <script nomodule src="build/app.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

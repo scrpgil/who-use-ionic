@@ -1,15 +1,19 @@
 :host {
   display: block;
-}
+  ion-header > ion-toolbar > ion-buttons[slot=end] {
+    @media (max-width: 575.98px) {
+      display: none !important;
+    }
 
-ion-header > ion-toolbar > ion-buttons[slot=end] {
-  @media (max-width: 575.98px) {
-    display: none !important;
+    ion-button {
+      --color: var(--ion-color-dark) !important;
+      --border-color: var(--ion-color-dark) !important;
+    }
   }
-}
 
-ion-title > h1 {
-  font-size: inherit;
-  margin: inherit;
-  padding: inherit;
+  h1 {
+    font-size: inherit;
+    margin: inherit;
+    padding: inherit;
+  }
 }

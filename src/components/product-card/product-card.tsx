@@ -57,6 +57,7 @@ export class AppHome {
               href={`${
                 this.product.platform.ios ? this.product.platform.ios : "#"
               }`}
+              target="_blank"
             >
               <ion-icon slot="icon-only" name="logo-apple" />
             </ion-button>
@@ -68,6 +69,7 @@ export class AppHome {
                   ? this.product.platform.android
                   : "#"
               }`}
+              target="_blank"
             >
               <ion-icon name="logo-android" />
             </ion-button>
@@ -77,6 +79,7 @@ export class AppHome {
               href={`${
                 this.product.platform.web ? this.product.platform.web : "#"
               }`}
+              target="_blank"
             >
               <ion-icon name="logo-html5" />
             </ion-button>

@@ -4,6 +4,7 @@ import Helmet from '@stencil/helmet';
 @Component({
   tag: 'app-home',
   styleUrl: 'app-home.scss',
+  shadow: true,
 })
 export class AppHome {
   render() {
@@ -21,27 +22,27 @@ export class AppHome {
           <meta property="og:image" content="https://ionicframework.com/img/meta/ionic-framework-og.png"/>
           <meta property="og:description" content="Ionic Japan User Groupは、日本のIonicユーザによるOSSコミュニティです。"/>
         </Helmet>
-        <app-header><h1>Ionic Japan User Group</h1></app-header>
+        <app-header>Ionic Japan User Group</app-header>
         <ion-content>
           <main>
             <div class="lead ion-padding">
-              <img class="hero-image" src="./assets/logo/ionic_japan.svg" />
+              <img class="hero-image" src="./assets/logo/ionic_japan.svg" width="120px" />
               <p>Ionic Japan User Groupは、<br />Web技術を使ったアプリ開発について情報交換するユーザコミュニティです。</p>
             </div>
 
             <ul class="list-native">
               <li>
-                <ion-button href="https://ionicframework.jp/docs/" fill="clear" color="dark" size="large">
+                <ion-button href="https://ionicframework.jp/docs/" fill="clear" size="large">
                   <ion-icon name="logo-ionic" slot="start" color="primary"></ion-icon>Ionic Framework
                 </ion-button>
               </li>
               <li>
-                <ion-button href="https://capacitorjs.jp/" fill="clear" color="dark" size="large">
+                <ion-button href="https://capacitorjs.jp/" fill="clear" size="large">
                   <ion-icon name="logo-stencil" slot="start" color="secondary"></ion-icon>Capacitor
                 </ion-button>
               </li>
               <li>
-                <ion-button href="https://stenciljs.jp/" fill="clear" color="dark" size="large">
+                <ion-button href="https://stenciljs.jp/" fill="clear" size="large">
                   <ion-icon name="logo-capacitor" slot="start" color="medium"></ion-icon>Stencil
                 </ion-button>
               </li>
@@ -49,7 +50,7 @@ export class AppHome {
             <div class="slack-card">
               <ion-card href="https://ionic-jp.herokuapp.com">
                 <ion-card-content>
-                  <img src="./assets/logo/slack.svg" />
+                  <img src="./assets/logo/slack.svg" width="120px" />
                   <p>興味がある方は、まずはslackにご参加ください！</p>
                 </ion-card-content>
               </ion-card>
@@ -61,7 +62,7 @@ export class AppHome {
               <h2>Contribute</h2>
               <p>
                 誰でも活動に貢献することができます。
-                Ionicは日本語情報が少ないことから組織したユーザコミュニティですので、情報を発信する側にまわっていたくことを歓迎します。
+                以前Ionicの日本語情報が少なかったことから組織したユーザコミュニティですので、情報を発信する側にまわっていたくことを歓迎します。
               </p>
               <ul>
                 <li>

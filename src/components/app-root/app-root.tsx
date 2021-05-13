@@ -8,7 +8,7 @@ export class AppRoot {
   render() {
     const loader = document.querySelector('#routerLoading');
     if (loader) {
-      setTimeout(() => loader.parentNode.removeChild(loader), 500);
+      loader.parentNode.removeChild(loader)
     }
     return (
       <ion-app>
