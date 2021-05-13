@@ -13,7 +13,7 @@ export class AppHeader {
           <ion-toolbar>
             <ion-buttons slot="start">
               <ion-button href="https://ionicframework.jp">
-                <ion-icon slot="icon-only" size="large" name="logo-ionic" />
+                <ion-icon slot="icon-only" name="logo-ionic" />
               </ion-button>
             </ion-buttons>
             <ion-title><slot></slot></ion-title>
