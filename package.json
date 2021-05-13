@@ -8,10 +8,11 @@
     "dist/"
   ],
   "scripts": {
-    "build": "stencil build --prerender",
+    "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
+    "generate": "stencil generate",
     "fmt": "prettier --parser typescript --write \"./**/*.ts\""
   },
   "dependencies": {
@@ -21,7 +22,8 @@
     "prettier": "^1.17.1"
   },
   "devDependencies": {
-    "@stencil/core": "^2.3.0"
+    "@stencil/core": "^2.3.0",
+    "@types/jest": "^26.0.23"
   },
   "pre-commit": [
     "fmt"

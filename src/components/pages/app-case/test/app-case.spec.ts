@@ -1,4 +1,4 @@
-import { AppCase } from "./app-case";
+import { AppCase } from "../app-case";
 
 describe("app", () => {
   it("builds", () => {
