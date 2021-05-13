@@ -1,6 +1,8 @@
 import { Component, h, State, Host } from "@stencil/core";
 import { DataProvider } from "../../../providers/data";
 import { IProduct } from "../../../models/product";
+import { caseFilterAlertOption } from '../../../helpers/utils';
+import Helmet from '@stencil/helmet';
 
 @Component({
   tag: "app-case",
@@ -15,66 +17,18 @@ export class AppCase {
   }
 
   async showSortAlert() {
-    const alert = document.createElement("ion-alert");
-    alert.header = "国で絞り込み";
-    alert.inputs = [
-      {
-        name: "all",
-        type: "radio",
-        label: "すべて",
-        value: "ALL",
-        checked: this.countryCode == "ALL"
-      },
-      {
-        name: "jp",
-        type: "radio",
-        label: "日本",
-        value: "JP",
-        checked: this.countryCode == "JP"
-      },
-      {
-        name: "us",
-        type: "radio",
-        label: "アメリカ",
-        value: "US",
-        checked: this.countryCode == "US"
-      },
-      {
-        name: "es",
-        type: "radio",
-        label: "スペイン",
-        value: "ES",
-        checked: this.countryCode == "ES"
-      },
-      {
-        name: "ir",
-        type: "radio",
-        label: "イラン",
-        value: "IR",
-        checked: this.countryCode == "IR"
-      },
-      {
-        name: "cw",
-        type: "radio",
-        label: "キュラソー",
-        value: "CW",
-        checked: this.countryCode == "CW"
-      }
-    ];
-    alert.buttons = [
-      {
-        text: "キャンセル",
-        role: "cancel",
-        cssClass: "secondary",
-        handler: () => {}
-      },
-      {
-        text: "絞り込む",
-        handler: data => {
-          this.countryCode = data;
+    const alert = Object.assign(document.createElement("ion-alert"),
+      caseFilterAlertOption(this.countryCode),{
+      buttons: [
+        {
+          text: "キャンセル",
+        },
+        {
+          text: "絞り込む",
+          handler: data => this.countryCode = data
         }
-      }
-    ];
+      ]
+    });
     document.body.appendChild(alert);
     return alert.present();
   }
@@ -82,9 +36,22 @@ export class AppCase {
   async getData() {
     this.products = await DataProvider.get();
   }
+
   render() {
     return (
       <Host>
+        <Helmet>
+          <title>Ionic利用事例集</title>
+          <meta name="description" content="Ionicを使用しているプロダクトのまとめ" />
+          <meta name="twitter:title" content="Ionic利用事例集"/>
+          <meta name="twitter:description" content="Ionicの利用事例を集めたショーケース"/>
+          <meta name="twitter:image" content="https://ionicframework.com/img/meta/ionic-framework-og.png"/>
+
+          <meta property="og:url" content="https://ionicframework.jp/case/"/>
+          <meta property="og:title" content="Ionic利用事例集"/>
+          <meta property="og:image" content="https://ionicframework.com/img/meta/ionic-framework-og.png"/>
+          <meta property="og:description" content="Ionicの利用事例を集めたショーケース"/>
+        </Helmet>
         <app-header>Ionic利用事例集</app-header>
         <ion-content class="ion-padding">
           <div class="products-wrapper">
