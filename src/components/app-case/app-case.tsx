@@ -3,10 +3,10 @@ import { DataProvider } from "../../providers/data";
 import { IProduct } from "../../models/product";
 
 @Component({
-  tag: "app-home",
-  styleUrl: "app-home.scss"
+  tag: "app-case",
+  styleUrl: "app-case.scss"
 })
-export class AppHome {
+export class AppCase {
   @State() products: IProduct[] = [];
   @State() countryCode: string = "ALL";
 
@@ -89,14 +89,17 @@ export class AppHome {
   render() {
     return [
       <ion-header>
-        <ion-toolbar color="primary">
+        <ion-toolbar>
           <ion-buttons slot="start">
             <ion-button href="https://ionicframework.jp">
               <ion-icon slot="icon-only" size="large" name="logo-ionic" />
             </ion-button>
           </ion-buttons>
-          <ion-title>Who use Ionic?</ion-title>
+          <ion-title>Ionic利用事例集</ion-title>
           <ion-buttons slot="end">
+            <ion-button fill="outline" href="https://ionicframework.jp/docs">
+              日本語ドキュメンテーション
+            </ion-button>
             <ion-button href="https://github.com/ionic-jp/who-use-ionic">
               <ion-icon slot="icon-only" name="logo-github" />
             </ion-button>

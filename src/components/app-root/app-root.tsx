@@ -10,8 +10,8 @@ export class AppRoot {
     return (
       <ion-app>
         <ion-router useHash={false}>
-          <ion-route url="/" component="app-home" />
-          <ion-route url="/case/" component="app-home" />
+          <ion-route url="/" component="app-case" />
+          <ion-route url="/case/" component="app-case" />
         </ion-router>
         <ion-nav />
       </ion-app>
