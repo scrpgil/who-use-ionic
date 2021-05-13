@@ -3,6 +3,10 @@
   .products-wrapper {
     display: flex;
     flex-wrap: wrap;
+
+    product-card {
+      margin: 16px 0;
+    }
   }
 }
 
