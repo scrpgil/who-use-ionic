@@ -27,7 +27,7 @@ export class AppHome {
           <main>
             <div class="lead ion-padding">
               <img class="hero-image" src="./assets/logo/ionic_japan.svg" width="120px" />
-              <p>Ionic Japan User Groupは、<br />Web技術を使ったアプリ開発について情報交換するユーザコミュニティです。</p>
+              <p>Ionic Japan User Groupは、<br />Web技術を使ったアプリ開発について情報交換するコミュニティです。</p>
             </div>
 
             <ul class="list-native">
