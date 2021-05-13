@@ -1,3 +1,9 @@
 :host {
   display: block;
 }
+
+ion-header ion-toolbar ion-buttons[slot=end] {
+  @media (max-width: 575.98px) {
+    display: none !important;
+  }
+}

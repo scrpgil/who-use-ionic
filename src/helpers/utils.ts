@@ -1,4 +1,4 @@
-import {AlertOptions} from '@ionic/core';
+import { AlertOptions } from "@ionic/core";
 
 export function sayHello() {
   return Math.random() < 0.5 ? "Hello" : "Hola";
@@ -50,6 +50,6 @@ export const caseFilterAlertOption = (countryCode: string): AlertOptions => {
         value: "CW",
         checked: countryCode == "CW"
       }
-    ],
-  }
-}
+    ]
+  };
+};
