@@ -5,23 +5,18 @@
  * It contains typing information for all components that exist in this project.
  */
 
-
-import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
-import {
-  IProduct,
-} from './models/product';
+import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { IProduct } from "./models/product";
 
 export namespace Components {
   interface AppCase {}
   interface AppRoot {}
   interface ProductCard {
-    'product': IProduct;
+    product: IProduct;
   }
 }
 
 declare global {
-
-
   interface HTMLAppCaseElement extends Components.AppCase, HTMLStencilElement {}
   var HTMLAppCaseElement: {
     prototype: HTMLAppCaseElement;
@@ -34,15 +29,17 @@ declare global {
     new (): HTMLAppRootElement;
   };
 
-  interface HTMLProductCardElement extends Components.ProductCard, HTMLStencilElement {}
+  interface HTMLProductCardElement
+    extends Components.ProductCard,
+      HTMLStencilElement {}
   var HTMLProductCardElement: {
     prototype: HTMLProductCardElement;
     new (): HTMLProductCardElement;
   };
   interface HTMLElementTagNameMap {
-    'app-case': HTMLAppCaseElement;
-    'app-root': HTMLAppRootElement;
-    'product-card': HTMLProductCardElement;
+    "app-case": HTMLAppCaseElement;
+    "app-root": HTMLAppRootElement;
+    "product-card": HTMLProductCardElement;
   }
 }
 
@@ -50,27 +47,25 @@ declare namespace LocalJSX {
   interface AppCase {}
   interface AppRoot {}
   interface ProductCard {
-    'product'?: IProduct;
+    product?: IProduct;
   }
 
   interface IntrinsicElements {
-    'app-case': AppCase;
-    'app-root': AppRoot;
-    'product-card': ProductCard;
+    "app-case": AppCase;
+    "app-root": AppRoot;
+    "product-card": ProductCard;
   }
 }
 
 export { LocalJSX as JSX };
 
-
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
-      'app-case': LocalJSX.AppCase & JSXBase.HTMLAttributes<HTMLAppCaseElement>;
-      'app-root': LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
-      'product-card': LocalJSX.ProductCard & JSXBase.HTMLAttributes<HTMLProductCardElement>;
+      "app-case": LocalJSX.AppCase & JSXBase.HTMLAttributes<HTMLAppCaseElement>;
+      "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+      "product-card": LocalJSX.ProductCard &
+        JSXBase.HTMLAttributes<HTMLProductCardElement>;
     }
   }
 }
-
-
