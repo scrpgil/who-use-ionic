@@ -1,3 +1,146 @@
 :host {
   display: block;
 }
+
+.lead {
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  margin: 20px auto 8px;
+  color: #333333;
+  .hero-image {
+    width: 120px;
+    display: block;
+  }
+  p {
+    margin-left: 40px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+}
+
+.list-native {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.slack-card {
+  max-width: 650px;
+  margin: 32px auto 60px;
+  ion-card {
+    --background: #4a154b;
+    ion-card-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      img {
+        width: 120px;
+        display: block;
+      }
+      p {
+        margin-left: 16px;
+        color: #ffffff;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.contribute {
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
+  background-color: var(--ion-color-primary, #3880ff);
+  color: #ffffff;
+  padding: 80px 0 10px 0;
+
+  & > div {
+    max-width: 1024px;
+    margin: auto;
+
+    & > h2 {
+      text-align: center;
+    }
+
+    & > p {
+      max-width: 650px;
+      font-size: 1.2rem;
+      margin: 32px auto 32px;
+      padding: 0 16px
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto 32px;
+      padding: 0;
+      justify-content: center;
+
+      @media (max-width: 575.98px) {
+        display: block;
+      }
+      li {
+        flex: 1;
+        ion-card-header {
+          text-align: center;
+          font-size: 2rem;
+          color: var(--ion-color-primary, #3880ff);
+          ion-icon {
+            position: relative;
+            top: 8px;
+          }
+        }
+        h3 {
+          text-align: center;
+          font-size: 1.2rem;
+          margin: 0 0 16px;
+          color: #333333;
+          font-weight: bold;
+        }
+        p {
+          color: #333333;
+          font-size: 1.1rem;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+  max-width: 1024px;
+  margin: 60px auto;
+
+  @media (max-width: 575.98px) {
+    display: block;
+  }
+
+  h2 {
+    min-width: 240px;
+    color: var(--ion-color-primary, #3880ff);
+    margin-left: 24px;
+    span {
+      padding-right: 16px;
+      border-right: 4px solid var(--ion-color-primary, #3880ff);
+    }
+  }
+
+  & > div {
+    margin-left: 24px;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        border-bottom: 1px solid #f0f0f0;
+        padding: 8px 0;
+      }
+    }
+  }
+}

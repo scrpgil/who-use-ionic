@@ -2,8 +2,14 @@
   display: block;
 }
 
-ion-header ion-toolbar ion-buttons[slot=end] {
+ion-header > ion-toolbar > ion-buttons[slot=end] {
   @media (max-width: 575.98px) {
     display: none !important;
   }
+}
+
+ion-title > h1 {
+  font-size: inherit;
+  margin: inherit;
+  padding: inherit;
 }
