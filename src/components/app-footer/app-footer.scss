@@ -1,0 +1,12 @@
+:host {
+  display: block;
+
+  p {
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  hr {
+    border: 1px solid var(--ion-color-light);
+  }
+}

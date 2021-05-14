@@ -65,6 +65,7 @@ export class AppCase {
               <ion-icon name="funnel"/>
             </ion-fab-button>
           </ion-fab>
+          <app-footer></app-footer>
         </ion-content>
       </Host>
     )

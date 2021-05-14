@@ -100,11 +100,11 @@ export class AppHome {
             <h2><span>Community Policy</span></h2>
             <div>
               <p>Ionic Japan User Groupは、 Web技術を使ったアプリ開発について情報交換するユーザコミュニティです。 コミュニティとしての健全性・持続性を保つために、以下の行動を禁止します。これらの行動を繰り返す参加者がいましたら、運営メンバーにご連絡ください。</p>
-              <hr />
               <ul innerHTML={(() => policyData.map(d => `<li>${d}</li>`).join(''))()}>
               </ul>
             </div>
           </section>
+          <app-footer></app-footer>
         </ion-content>
       </Host>
     );
