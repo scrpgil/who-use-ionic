@@ -11,7 +11,7 @@ import { productData } from '../../../providers/product';
 })
 export class AppCase {
   @State() countryCode: string = "ALL";
-  private products: IProduct[] = productData;
+  @State() products: IProduct[] = [];
 
   async showSortAlert() {
     const alert = Object.assign(document.createElement("ion-alert"),
@@ -28,6 +28,10 @@ export class AppCase {
     });
     document.body.appendChild(alert);
     return alert.present();
+  }
+
+  componentWillLoad() {
+    this.products = productData;
   }
 
   render() {
