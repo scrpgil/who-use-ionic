@@ -13,7 +13,7 @@ export const config: Config = {
       type: "www",
       serviceWorker: null,
       prerenderConfig: "./prerender.config.ts",
-      baseUrl: "http://localhost:8000/"
+      baseUrl: "https://capacitorjs.com/"
     }
   ]
 };

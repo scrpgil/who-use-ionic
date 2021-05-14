@@ -1,5 +1,6 @@
 import { Component, Host, h } from '@stencil/core';
 import Helmet from '@stencil/helmet';
+import { policyData } from '../../../providers/policy';
 
 @Component({
   tag: 'app-home',
@@ -70,7 +71,7 @@ export class AppHome {
                     <ion-card-header><ion-icon name="document-text-outline"></ion-icon></ion-card-header>
                     <ion-card-content>
                       <h3>ドキュメント翻訳</h3>
-                      <p>Ionic/Capacitor/Stencilのドキュメントをコミュニティで翻訳・公開しています。</p>
+                      <p>Ionic/Capacitor/Stencilのドキュメントの翻訳をお手伝いいただける方を募集しています。</p>
                     </ion-card-content>
                   </ion-card>
                 </li>
@@ -98,19 +99,9 @@ export class AppHome {
           <section class="policy">
             <h2><span>Community Policy</span></h2>
             <div>
-              <p>
-                Ionic Japan User Groupは、 Web技術を使ったアプリ開発について情報交換するユーザコミュニティです。 コミュニティとしての健全性・持続性を保つために、以下の行動を禁止します。これらの行動を繰り返す参加者がいましたら、運営メンバーにご連絡ください。
-              </p>
+              <p>Ionic Japan User Groupは、 Web技術を使ったアプリ開発について情報交換するユーザコミュニティです。 コミュニティとしての健全性・持続性を保つために、以下の行動を禁止します。これらの行動を繰り返す参加者がいましたら、運営メンバーにご連絡ください。</p>
               <hr />
-              <ul>
-                <li>法令または公序良俗に違反する行為</li>
-                <li>犯罪行為に関連する行為</li>
-                <li>他のユーザに関する個人情報等を収集または蓄積する行為</li>
-                <li>他のユーザに成りすます行為</li>
-                <li>反社会的勢力に対して直接または間接に利益を供与する行為</li>
-                <li>過度に暴力的な表現、露骨な性的表現、人種、国籍、信条、性別、社会的身分、門地等による差別につながる表現、自殺、自傷行為、薬物乱用を誘引または助長する表現、その他反社会的な内容を含み他人に不快感を与える表現、もしくは行為</li>
-                <li>営業、宣伝、広告、求人、勧誘、その他営利を目的とする行為（事前にコミュニティで認めたものを除きます。）、性行為やわいせつな行為を目的とする行為、他のお客様に対する嫌がらせや誹謗中傷を目的とする行為</li>
-                <li>宗教活動または宗教団体への勧誘行為</li>
+              <ul innerHTML={(() => policyData.map(d => `<li>${d}</li>`).join(''))()}>
               </ul>
             </div>
           </section>

@@ -2,7 +2,7 @@ import { Component, h, State, Host } from "@stencil/core";
 import { IProduct } from "../../../models/product";
 import { caseFilterAlertOption } from '../../../helpers/utils';
 import Helmet from '@stencil/helmet';
-import products from './../../../providers/data.json'
+import { productData } from '../../../providers/product';
 
 @Component({
   tag: "app-case",
@@ -11,7 +11,7 @@ import products from './../../../providers/data.json'
 })
 export class AppCase {
   @State() countryCode: string = "ALL";
-  private products: IProduct[] = products.products;
+  private products: IProduct[] = productData;
 
   async showSortAlert() {
     const alert = Object.assign(document.createElement("ion-alert"),
