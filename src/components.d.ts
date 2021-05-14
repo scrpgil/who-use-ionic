@@ -7,99 +7,92 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { IProduct } from "./models/product";
 export namespace Components {
-    interface AppCase {
-    }
-    interface AppFooter {
-    }
-    interface AppHeader {
-    }
-    interface AppHome {
-    }
-    interface AppRoot {
-    }
-    interface ProductCard {
-        "product": IProduct;
-    }
+  interface AppCase {}
+  interface AppFooter {}
+  interface AppHeader {}
+  interface AppHome {}
+  interface AppRoot {}
+  interface ProductCard {
+    product: IProduct;
+  }
 }
 declare global {
-    interface HTMLAppCaseElement extends Components.AppCase, HTMLStencilElement {
-    }
-    var HTMLAppCaseElement: {
-        prototype: HTMLAppCaseElement;
-        new (): HTMLAppCaseElement;
-    };
-    interface HTMLAppFooterElement extends Components.AppFooter, HTMLStencilElement {
-    }
-    var HTMLAppFooterElement: {
-        prototype: HTMLAppFooterElement;
-        new (): HTMLAppFooterElement;
-    };
-    interface HTMLAppHeaderElement extends Components.AppHeader, HTMLStencilElement {
-    }
-    var HTMLAppHeaderElement: {
-        prototype: HTMLAppHeaderElement;
-        new (): HTMLAppHeaderElement;
-    };
-    interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {
-    }
-    var HTMLAppHomeElement: {
-        prototype: HTMLAppHomeElement;
-        new (): HTMLAppHomeElement;
-    };
-    interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {
-    }
-    var HTMLAppRootElement: {
-        prototype: HTMLAppRootElement;
-        new (): HTMLAppRootElement;
-    };
-    interface HTMLProductCardElement extends Components.ProductCard, HTMLStencilElement {
-    }
-    var HTMLProductCardElement: {
-        prototype: HTMLProductCardElement;
-        new (): HTMLProductCardElement;
-    };
-    interface HTMLElementTagNameMap {
-        "app-case": HTMLAppCaseElement;
-        "app-footer": HTMLAppFooterElement;
-        "app-header": HTMLAppHeaderElement;
-        "app-home": HTMLAppHomeElement;
-        "app-root": HTMLAppRootElement;
-        "product-card": HTMLProductCardElement;
-    }
+  interface HTMLAppCaseElement extends Components.AppCase, HTMLStencilElement {}
+  var HTMLAppCaseElement: {
+    prototype: HTMLAppCaseElement;
+    new (): HTMLAppCaseElement;
+  };
+  interface HTMLAppFooterElement
+    extends Components.AppFooter,
+      HTMLStencilElement {}
+  var HTMLAppFooterElement: {
+    prototype: HTMLAppFooterElement;
+    new (): HTMLAppFooterElement;
+  };
+  interface HTMLAppHeaderElement
+    extends Components.AppHeader,
+      HTMLStencilElement {}
+  var HTMLAppHeaderElement: {
+    prototype: HTMLAppHeaderElement;
+    new (): HTMLAppHeaderElement;
+  };
+  interface HTMLAppHomeElement extends Components.AppHome, HTMLStencilElement {}
+  var HTMLAppHomeElement: {
+    prototype: HTMLAppHomeElement;
+    new (): HTMLAppHomeElement;
+  };
+  interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {}
+  var HTMLAppRootElement: {
+    prototype: HTMLAppRootElement;
+    new (): HTMLAppRootElement;
+  };
+  interface HTMLProductCardElement
+    extends Components.ProductCard,
+      HTMLStencilElement {}
+  var HTMLProductCardElement: {
+    prototype: HTMLProductCardElement;
+    new (): HTMLProductCardElement;
+  };
+  interface HTMLElementTagNameMap {
+    "app-case": HTMLAppCaseElement;
+    "app-footer": HTMLAppFooterElement;
+    "app-header": HTMLAppHeaderElement;
+    "app-home": HTMLAppHomeElement;
+    "app-root": HTMLAppRootElement;
+    "product-card": HTMLProductCardElement;
+  }
 }
 declare namespace LocalJSX {
-    interface AppCase {
-    }
-    interface AppFooter {
-    }
-    interface AppHeader {
-    }
-    interface AppHome {
-    }
-    interface AppRoot {
-    }
-    interface ProductCard {
-        "product"?: IProduct;
-    }
-    interface IntrinsicElements {
-        "app-case": AppCase;
-        "app-footer": AppFooter;
-        "app-header": AppHeader;
-        "app-home": AppHome;
-        "app-root": AppRoot;
-        "product-card": ProductCard;
-    }
+  interface AppCase {}
+  interface AppFooter {}
+  interface AppHeader {}
+  interface AppHome {}
+  interface AppRoot {}
+  interface ProductCard {
+    product?: IProduct;
+  }
+  interface IntrinsicElements {
+    "app-case": AppCase;
+    "app-footer": AppFooter;
+    "app-header": AppHeader;
+    "app-home": AppHome;
+    "app-root": AppRoot;
+    "product-card": ProductCard;
+  }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
-    export namespace JSX {
-        interface IntrinsicElements {
-            "app-case": LocalJSX.AppCase & JSXBase.HTMLAttributes<HTMLAppCaseElement>;
-            "app-footer": LocalJSX.AppFooter & JSXBase.HTMLAttributes<HTMLAppFooterElement>;
-            "app-header": LocalJSX.AppHeader & JSXBase.HTMLAttributes<HTMLAppHeaderElement>;
-            "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
-            "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
-            "product-card": LocalJSX.ProductCard & JSXBase.HTMLAttributes<HTMLProductCardElement>;
-        }
+  export namespace JSX {
+    interface IntrinsicElements {
+      "app-case": LocalJSX.AppCase & JSXBase.HTMLAttributes<HTMLAppCaseElement>;
+      "app-footer": LocalJSX.AppFooter &
+        JSXBase.HTMLAttributes<HTMLAppFooterElement>;
+      "app-header": LocalJSX.AppHeader &
+        JSXBase.HTMLAttributes<HTMLAppHeaderElement>;
+      "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
+      "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+      "product-card": LocalJSX.ProductCard &
+        JSXBase.HTMLAttributes<HTMLProductCardElement>;
     }
+  }
 }

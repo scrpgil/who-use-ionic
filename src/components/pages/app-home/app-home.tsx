@@ -89,7 +89,7 @@ export class AppHome {
                     <ion-card-header><ion-icon name="wifi-outline"></ion-icon></ion-card-header>
                     <ion-card-content>
                       <h3>ブログ</h3>
-                      <p>あなたが困ったことをどう解決したかを記事にすると、同じ問題に直面した人の助けになります。</p>
+                      <p>困ったことをどう解決したかを記事にすると、同じ問題に直面した人の助けになります。</p>
                     </ion-card-content>
                   </ion-card>
                 </li>
