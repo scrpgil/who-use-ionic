@@ -1,12 +1,14 @@
 :host {
   display: block;
+  background-color: var(--ion-color-primary, #3880ff);
 
   p {
-    padding: 0 16px;
+    padding: 16px 16px;
+    margin: 32px 0 0;
+    color: #ffffff;
+    & > a {
+      color: #ffffff;
+    }
     text-align: center;
-  }
-
-  hr {
-    border: 1px solid var(--ion-color-light);
   }
 }

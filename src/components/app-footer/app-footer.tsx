@@ -10,8 +10,7 @@ export class AppFooter {
   render() {
     return (
       <Host>
-        <hr />
-        <p>This site is powered by <a href="https://www.netlify.com/">Netlify</a> .</p>
+        <p>Caught a mistake or want to contribute to the documentation? <a href="https://github.com/ionic-jp/community-site">Edit this on GitHub!</a> Deployed on <a href="https://www.netlify.com/">Netlify</a> .</p>
       </Host>
     );
   }
