@@ -15,6 +15,9 @@ export namespace Components {
     }
     interface AppHome {
     }
+    interface AppNavMobile {
+        "show": boolean;
+    }
     interface AppRoot {
     }
     interface ProductCard {
@@ -46,6 +49,12 @@ declare global {
         prototype: HTMLAppHomeElement;
         new (): HTMLAppHomeElement;
     };
+    interface HTMLAppNavMobileElement extends Components.AppNavMobile, HTMLStencilElement {
+    }
+    var HTMLAppNavMobileElement: {
+        prototype: HTMLAppNavMobileElement;
+        new (): HTMLAppNavMobileElement;
+    };
     interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {
     }
     var HTMLAppRootElement: {
@@ -63,6 +72,7 @@ declare global {
         "app-footer": HTMLAppFooterElement;
         "app-header": HTMLAppHeaderElement;
         "app-home": HTMLAppHomeElement;
+        "app-nav-mobile": HTMLAppNavMobileElement;
         "app-root": HTMLAppRootElement;
         "product-card": HTMLProductCardElement;
     }
@@ -76,6 +86,9 @@ declare namespace LocalJSX {
     }
     interface AppHome {
     }
+    interface AppNavMobile {
+        "show"?: boolean;
+    }
     interface AppRoot {
     }
     interface ProductCard {
@@ -86,6 +99,7 @@ declare namespace LocalJSX {
         "app-footer": AppFooter;
         "app-header": AppHeader;
         "app-home": AppHome;
+        "app-nav-mobile": AppNavMobile;
         "app-root": AppRoot;
         "product-card": ProductCard;
     }
@@ -98,6 +112,7 @@ declare module "@stencil/core" {
             "app-footer": LocalJSX.AppFooter & JSXBase.HTMLAttributes<HTMLAppFooterElement>;
             "app-header": LocalJSX.AppHeader & JSXBase.HTMLAttributes<HTMLAppHeaderElement>;
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
+            "app-nav-mobile": LocalJSX.AppNavMobile & JSXBase.HTMLAttributes<HTMLAppNavMobileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
             "product-card": LocalJSX.ProductCard & JSXBase.HTMLAttributes<HTMLProductCardElement>;
         }
