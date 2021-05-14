@@ -23,7 +23,7 @@ export class AppHome {
           <meta property="og:image" content="https://ionicframework.com/img/meta/ionic-framework-og.png"/>
           <meta property="og:description" content="Ionic Japan User Groupは、Web技術を使ったアプリ開発について情報交換するコミュニティです。"/>
         </Helmet>
-        <app-header>Ionic Japan User Group</app-header>
+        <app-header></app-header>
         <ion-content>
           <main>
             <div class="lead ion-padding">
