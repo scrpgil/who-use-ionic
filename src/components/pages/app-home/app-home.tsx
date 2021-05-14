@@ -13,15 +13,15 @@ export class AppHome {
       <Host>
         <Helmet>
           <title>Ionic Japan User Group</title>
-          <meta name="description" content="Ionic Japan User Groupは、日本のIonicユーザによるOSSコミュニティです。" />
+          <meta name="description" content="Ionic Japan User Groupは、Web技術を使ったアプリ開発について情報交換するコミュニティです。" />
           <meta name="twitter:title" content="Ionic Japan User Group - Ionic日本ユーザ会"/>
-          <meta name="twitter:description" content="Ionic Japan User Groupは、日本のIonicユーザによるOSSコミュニティです。"/>
+          <meta name="twitter:description" content="Ionic Japan User Groupは、Web技術を使ったアプリ開発について情報交換するコミュニティです。"/>
           <meta name="twitter:image" content="https://ionicframework.com/img/meta/ionic-framework-og.png"/>
 
           <meta property="og:url" content="https://ionicframework.jp/"/>
           <meta property="og:title" content="Ionic Japan User Group - Ionic日本ユーザ会"/>
           <meta property="og:image" content="https://ionicframework.com/img/meta/ionic-framework-og.png"/>
-          <meta property="og:description" content="Ionic Japan User Groupは、日本のIonicユーザによるOSSコミュニティです。"/>
+          <meta property="og:description" content="Ionic Japan User Groupは、Web技術を使ったアプリ開発について情報交換するコミュニティです。"/>
         </Helmet>
         <app-header>Ionic Japan User Group</app-header>
         <ion-content>
