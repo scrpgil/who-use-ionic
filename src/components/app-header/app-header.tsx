@@ -21,7 +21,7 @@ export class AppHeader {
   };
 
   componentDidLoad() {
-    if (document.body.offsetWidth < 690) {
+    if (document.documentElement.clientWidth < 690) {
       this.mode = "short";
     }
   }
@@ -85,7 +85,8 @@ export class AppHeader {
               </ion-button>
               <ion-button
                 class={{
-                  "dom-show": this.mode === "short" && true
+                  "dom-show": this.mode === "short" && true,
+                  "default-hide": true
                 }}
                 onclick={this.toggleMobileNav}
               >

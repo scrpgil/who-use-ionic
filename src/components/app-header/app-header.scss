@@ -11,10 +11,14 @@
     margin: inherit;
     padding: inherit;
   }
+  .default-hide {
+    display: none;
+  }
   .dom-hide {
     display: none;
   }
+  ion-header > ion-toolbar > ion-buttons[slot="end"],
   .dom-show {
-    display: block;
+    display: block !important;
   }
 }
