@@ -48,8 +48,8 @@ export class AppNavMobile {
         }}
       >
         <ion-list>
-          {this.techs.map(tech => (
-            <ion-item button href={tech.url} target={tech.target}>
+          {this.techs.map((tech, i) => (
+            <ion-item href={tech.url} target={tech.target} lines={this.techs.length - 1 === i ? 'none' : undefined}>
               <ion-icon slot="start" name={tech.icon} />
               <ion-label>
                 <h3>{tech.title}</h3>
