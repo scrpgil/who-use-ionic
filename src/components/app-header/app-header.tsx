@@ -63,7 +63,7 @@ export class AppHeader {
                 href="https://github.com/ionic-jp/community-site"
                 target="_blank"
               >
-                <ion-icon slot="icon-only" name="logo-github" />
+                <ion-icon slot="icon-only" size="small" name="logo-github" />
               </ion-button>
               <ion-button
                 class={{
@@ -72,7 +72,7 @@ export class AppHeader {
                 href="https://twitter.com/ionic_japan"
                 target="_blank"
               >
-                <ion-icon slot="icon-only" name="logo-twitter" />
+                <ion-icon slot="icon-only" size="small" name="logo-twitter" />
               </ion-button>
               <ion-button
                 class={{
