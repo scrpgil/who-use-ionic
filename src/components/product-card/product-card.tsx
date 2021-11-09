@@ -7,6 +7,7 @@ import { IProduct } from "../../models/product";
 })
 export class AppHome {
   @Prop() product: IProduct;
+  @Prop() dir: string = "";
 
   render() {
     return (

@@ -21,6 +21,7 @@ export namespace Components {
     interface AppRoot {
     }
     interface ProductCard {
+        "dir": string;
         "product": IProduct;
     }
 }
@@ -92,6 +93,7 @@ declare namespace LocalJSX {
     interface AppRoot {
     }
     interface ProductCard {
+        "dir"?: string;
         "product"?: IProduct;
     }
     interface IntrinsicElements {

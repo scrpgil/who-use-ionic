@@ -88,7 +88,7 @@ export class AppHeader {
                   "dom-show": this.mode === "short" && true,
                   "default-hide": true
                 }}
-                onclick={this.toggleMobileNav}
+                onClick={this.toggleMobileNav}
               >
                 <ion-icon name="ellipsis-vertical-outline" />
               </ion-button>
