@@ -3,7 +3,7 @@ import { IProduct } from "../models/product";
 export const productData: IProduct[] = [
   {
     name: "たのんだー",
-    image: "./case/assets/images/tanonda.png",
+    image: "/assets/images/tanonda.png",
     description: "やること管理＆送信アプリ",
     author: "@jsalt_0525",
     websiteUrl: "https://mnitta220.github.io/bnan/",
@@ -18,7 +18,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "文章暗記",
-    image: "./case/assets/images/bunsyouanki.png",
+    image: "/assets/images/bunsyouanki.png",
     description:
       "「 文章暗記ぶんしょうあんき」は、スマートフォン、タブレット向けのアプリです。 このアプリは、暗記したい文章がある時に、それを暗記できるようにサポートします。 たとえば、古典、経典、 詩歌しいか、スピーチ原稿、台本などの文章を、暗記・ 暗誦あんしょうしたい時に、このアプリを使ってトレーニングすることができます。",
     author: "mnitta220",
@@ -34,7 +34,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "脳内碁盤",
-    image: "./case/assets/images/nounaigoban.png",
+    image: "/assets/images/nounaigoban.png",
     description: "",
     author: "mnitta220",
     websiteUrl: "https://github.com/mnitta220/nngb/",
@@ -64,7 +64,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "食品表示印刷",
-    image: "./case/assets/images/shyokuhin.png",
+    image: "/assets/images/shyokuhin.png",
     description: "食品表示ラベルをシンプルに印刷。",
     author: "@rdlabo.",
     websiteUrl: "",
@@ -78,7 +78,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "FunnyOne(ファニーワン) 写真で一言リモート大喜利",
-    image: "./case/assets/images/funny_one.png",
+    image: "/assets/images/funny_one.png",
     description: "写真で一言リモート爆笑コンテンツ",
     author: "popbits Inc.",
     websiteUrl: "",
@@ -124,7 +124,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "ルートハブ",
-    image: "./case/assets/images/routehub.png",
+    image: "/assets/images/routehub.png",
     description:
       "いいルートを共有できるよう、ルートラボの代替機能と、ちょっと+αを目指します",
     author: "@routehubapp",
@@ -150,7 +150,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "パパの子育てソーシャルサービス firtee",
-    image: "./case/assets/images/firtee.png",
+    image: "/assets/images/firtee.png",
     description: "家庭のタスク共有アプリ",
     author: "@rdlabo",
     websiteUrl: "https://app.firtee.net/auth/signin",
@@ -163,7 +163,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "ペットじまん",
-    image: "./case/assets/images/petjiman.png",
+    image: "/assets/images/petjiman.png",
     description: "ペット好きが集まるペット専用SNSアプリ",
     author: "ryo.naruse",
     websiteUrl: "https://twitter.com/petjiman_app",
@@ -190,7 +190,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "FrontConf2019アプリ",
-    image: "./case/assets/images/frontconf2019.png",
+    image: "/assets/images/frontconf2019.png",
     description: "デモアプリ",
     author: "Ionic Japan User Group",
     websiteUrl: "https://kfug2019.ionicframework.jp/",
@@ -475,7 +475,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "三井住友銀行",
-    image: "./case/assets/images/smbc.png",
+    image: "/assets/images/smbc.png",
     description: "三井住友銀行アプリ",
     author: "三井住友銀行",
     websiteUrl: "https://www.smbc.co.jp/",
@@ -721,7 +721,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "ホウビンゴ",
-    image: "./case/assets/images/houbingo.png",
+    image: "/assets/images/houbingo.png",
     description: "タスクアプリ",
     author: "@maki_saki",
     websiteUrl: "https://houbingo.com/",
@@ -735,7 +735,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "ゲーマガ",
-    image: "./case/assets/images/gamaga.png",
+    image: "/assets/images/gamaga.png",
     description: "ゲームマガジンのアプリ",
     author: "株式会社バカー",
     websiteUrl: "https://gamemaga.denfaminicogamer.jp/",
@@ -848,7 +848,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "Area Innovation Review",
-    image: "./case/assets/images/area_innovation_review.png",
+    image: "/assets/images/area_innovation_review.png",
     description: "まちを本気で変える人のためのWebマガジン",
     author: "AreaInnovationAlliance, Inc",
     websiteUrl: "http://air.areaia.jp/",
@@ -863,7 +863,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "ししゃモバ SHISHAMO公式アプリ",
-    image: "./case/assets/images/shishamo.png",
+    image: "/assets/images/shishamo.png",
     description:
       "3ピースロックバンド「SHISHAMO」の公式アプリ(通称「ししゃモバ」)",
     author: "CRAYON Inc.",
@@ -878,7 +878,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "HouseGate",
-    image: "./case/assets/images/housegate.png",
+    image: "/assets/images/housegate.png",
     description: "業者と施主をつなぐ施工管理アプリ",
     author: "TwoGate inc.",
     websiteUrl: "https://housegate.jp/",
@@ -906,7 +906,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "バイトアプリ「an」",
-    image: "./case/assets/images/an.jpg",
+    image: "/assets/images/an.jpg",
     description: "自分にピッタリなバイトを探せるアプリ",
     author: "PERSOL CAREER CO., LTD.",
     websiteUrl: "https://weban.jp/contents/c/smartphone_apri/",
@@ -920,7 +920,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "web-whiteboard",
-    image: "./case/assets/images/web-whiteboard.png",
+    image: "/assets/images/web-whiteboard.png",
     description: "Ionic&microsoftgraphで作られたホワイトボード",
     author: "@Justinwillis96",
     websiteUrl: "https://github.com/jgw96/web-whiteboard",
@@ -933,7 +933,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "はたらく言葉たちジェネレーター",
-    image: "./case/assets/images/hatakoto.png",
+    image: "/assets/images/hatakoto.png",
     description: "某つり革広告のジェネレーター",
     author: "@scrpgil",
     websiteUrl: "https://mobile.twitter.com/scrpgil/status/1138631892108947456",
@@ -946,7 +946,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "金町の北上で幻魔大戦を叫んだけもの",
-    image: "./case/assets/images/kanamachi-genma-taisen.png",
+    image: "/assets/images/kanamachi-genma-taisen.png",
     description: "スマホ対応の幻魔大戦ブログ",
     author: "WO8TimeSpace175ZERO2",
     websiteUrl:
@@ -960,7 +960,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "広島の謎1 宮島の謎",
-    image: "./case/assets/images/mistery-of-hiroshima.png",
+    image: "/assets/images/mistery-of-hiroshima.png",
     description: "1本ずつ広島の全貌を解き明かしていくシリーズアプリ",
     author: "峰山進",
     websiteUrl: "https://rakunet.org/nazo/",
@@ -987,7 +987,7 @@ export const productData: IProduct[] = [
   },
   {
     name: "性活カレンダー",
-    image: "./case/assets/images/hCalendar.jpeg",
+    image: "/assets/images/hCalendar.jpeg",
     description: "パートナーとの営みをカレンダーで記録",
     author: "Gento",
     websiteUrl: "",
