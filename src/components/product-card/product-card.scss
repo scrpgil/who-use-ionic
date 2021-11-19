@@ -22,6 +22,12 @@ product-card {
     ion-img {
       min-height: 150px;
     }
+    .card-description {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+    }
     .card-footer {
       padding-top: 16px;
       width: 100%;

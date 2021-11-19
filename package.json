@@ -9,21 +9,25 @@
   ],
   "scripts": {
     "build": "stencil build",
+    "build.ci": "stencil build --prerender --ci",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
-    "formatter": "prettier --parser typescript --write \"./**/*.ts\""
+    "generate": "stencil generate",
+    "fmt": "prettier --parser typescript --write \"./**/*.ts\""
   },
   "dependencies": {
-    "@ionic/core": "4.10.3",
-    "@stencil/sass": "1.1.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.17.1"
   },
   "devDependencies": {
-    "@stencil/core": "1.8.1"
+    "@ionic/core": "^5.8.5",
+    "@stencil/core": "^2.10.0",
+    "@stencil/helmet": "^0.3.2",
+    "@stencil/sass": "^1.5.2",
+    "@types/jest": "^26.0.23"
   },
   "pre-commit": [
-    "formatter"
+    "fmt"
   ]
 }

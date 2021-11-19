@@ -7,6 +7,7 @@ import { IProduct } from "../../models/product";
 })
 export class AppHome {
   @Prop() product: IProduct;
+  @Prop() dir: string = "";
 
   render() {
     return (
@@ -42,12 +43,14 @@ export class AppHome {
               );
             }
           })()}
-          <div>{this.product.description}</div>
+          <div class="card-description">{this.product.description}</div>
         </ion-card-content>
         <div class="card-footer">
           <div class="flag-wrapper">
-              <i class={`flag-icon flag-icon-${this.product.country.toLowerCase()}`}></i>
-      </div>
+            <i
+              class={`flag-icon flag-icon-${this.product.country.toLowerCase()}`}
+            />
+          </div>
           <div class="platforms-wrapper">
             <ion-button
               fill="clear"
@@ -55,6 +58,7 @@ export class AppHome {
               href={`${
                 this.product.platform.ios ? this.product.platform.ios : "#"
               }`}
+              target="_blank"
             >
               <ion-icon slot="icon-only" name="logo-apple" />
             </ion-button>
@@ -66,6 +70,7 @@ export class AppHome {
                   ? this.product.platform.android
                   : "#"
               }`}
+              target="_blank"
             >
               <ion-icon name="logo-android" />
             </ion-button>
@@ -75,6 +80,7 @@ export class AppHome {
               href={`${
                 this.product.platform.web ? this.product.platform.web : "#"
               }`}
+              target="_blank"
             >
               <ion-icon name="logo-html5" />
             </ion-button>

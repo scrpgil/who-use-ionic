@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  ion-header > ion-toolbar > ion-buttons[slot="end"] {
+    @media (max-width: 575.98px) {
+      display: none !important;
+    }
+  }
+
+  h1 {
+    font-size: inherit;
+    margin: inherit;
+    padding: inherit;
+  }
+  .default-hide {
+    display: none;
+  }
+  .dom-hide {
+    display: none;
+  }
+  ion-header > ion-toolbar > ion-buttons[slot="end"],
+  .dom-show {
+    display: block !important;
+  }
+}
